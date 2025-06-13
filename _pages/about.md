@@ -13,6 +13,8 @@ Trustworthy Information Access (**TINA**) group. We are part of the CAS Key Lab 
 
 Our research focuses on RAG, Retrieval, LLM. bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala.
 
+测试中文。
+
 <br>
 
 <div style="border: 2px solid #f44336; background-color: #ffebee; padding: 16px; border-radius: 5px; margin: 20px 0;">
