@@ -1,7 +1,8 @@
 - image: haolunge.jpg
-  caption: "dinner at haolunge"
+  caption: ""
 - image: meeting.jpg
-  caption: "group meeting"
+  caption: ""
+# TODO: caption好像没用
 # - image: ny_2024.JPG
 #   caption: ""
 # - image: chaos_0.JPG
