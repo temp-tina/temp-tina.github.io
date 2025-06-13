@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-seminars",
           title: "seminars",
           description: "",
@@ -119,11 +112,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/zongdanyang.html";
-            },},{id: "projects-model-editing",
-          title: 'Model Editing',
-          description: "Model Editing.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/example/";
             },},{id: "seminars-example",
           title: 'example',
           description: "",
