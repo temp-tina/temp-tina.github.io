@@ -1,5 +1,7 @@
+# Deployment
 1. Use the template
-2. Set branch to gh-pages in the Pages
+2. Modify _config.yml [ref](https://github.com/alshedivat/al-folio/blob/main/CUSTOMIZE.md)
+3. Set branch to gh-pages in the Pages
 
 # 使用指南
 
