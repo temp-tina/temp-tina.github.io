@@ -58,10 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join_us/";
           },
-        },{id: "news-our-paper-unlink-to-unlearn-simplifying-edge-unlearning-in-gnns-is-accepted-by-webconf2024-congrats-to-jiajun",
-          title: 'Our paper Unlink to Unlearn: Simplifying Edge Unlearning in GNNs is accepted by...',
-          description: "",
-          section: "News",},{id: "news-three-papers-are-accepted-by-acl2024-about-model-editing-bias-in-knowledge-conflict-and-confidence-alignment-congrats-to-hexiang-wanli-and-shuchang",
+        },{id: "news-three-papers-are-accepted-by-acl2024-about-model-editing-bias-in-knowledge-conflict-and-confidence-alignment-congrats-to-hexiang-wanli-and-shuchang",
           title: 'Three papers are accepted by ACL2024 about model editing, bias in knowledge conflict,...',
           description: "",
           section: "News",},{id: "news-our-paper-the-fall-of-rome-is-accepted-by-emnlp2024-finding-congrats-to-wanli",
@@ -72,6 +69,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-two-papers-are-accepted-by-acl2025-about-model-editing-and-watermarking-congrats-to-wanli-and-beining",
           title: 'Two papers are accepted by ACL2025 about model editing and watermarking. Congrats to...',
+          description: "",
+          section: "News",},{id: "news-the-first-time-to-build-the-home-page-template",
+          title: 'The first time to build the home page template!',
           description: "",
           section: "News",},{id: "people-chenzhenxing",
           title: 'Chenzhenxing',
