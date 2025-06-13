@@ -1,5 +1,5 @@
 1. Use the template
-2. Set barch to gh-pages in the Pages
+2. Set branch to gh-pages in the Pages
 
 # 使用指南
 
