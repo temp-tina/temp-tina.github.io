@@ -58,11 +58,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join_us/";
           },
-        },{id: "news-three-papers-are-accepted-by-acl2024-about-model-editing-bias-in-knowledge-conflict-and-confidence-alignment-congrats-to-hexiang-wanli-and-shuchang",
-          title: 'Three papers are accepted by ACL2024 about model editing, bias in knowledge conflict,...',
-          description: "",
-          section: "News",},{id: "news-the-first-time-to-build-the-home-page-template",
+        },{id: "news-the-first-time-to-build-the-home-page-template",
           title: 'The first time to build the home page template!',
+          description: "",
+          section: "News",},{id: "news-shiyu-ni-won-the-iclr-2026-best-paper-award-congratulations",
+          title: 'Shiyu Ni won the ICLR 2026 best paper award, congratulations!',
           description: "",
           section: "News",},{id: "people-chenzhenxing",
           title: 'Chenzhenxing',
