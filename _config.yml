@@ -144,9 +144,9 @@ collections:
     permalink: /:collection/:title/
   people:
     output: false
-  projects:
-    output: false
-    permalink: /:collection/:title/
+  # projects:
+  #   output: false
+  #   permalink: /:collection/:title/
   seminars:
     output: false
     permalink: /:collection/:title/
@@ -200,6 +200,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _projects/
+  _ _pages/projects.md
 keep_files:
   - CNAME
   - .nojekyll
