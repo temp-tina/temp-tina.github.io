@@ -9,11 +9,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Trustworthy Information Access (**TINA**) group. We are part of the CAS Key Lab of Network Data Science and Technology.
+Trustworthy Information Access (**TINA**) group. We are part of the CAS Key Lab of Network Data Science and Technology. Our research focuses on RAG, Dense Retrieval, LLM. bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala. 
 
-Our research focuses on RAG, Retrieval, LLM. bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala.
-
-测试中文。
+可信信息获取小组隶属于中科院网络数据科学与技术重点实验室，主要研究方向包括检索增强生成，密集检索，大模型知识边界等。
 
 <br>
 
