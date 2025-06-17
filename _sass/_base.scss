@@ -1405,7 +1405,9 @@ ninja-keys::part(ninja-input-wrapper) {
 // carousel
 .carousel-wrapper {
   position: relative;
-  padding-top: 75%; /* 4:3 比例 */
+  /* padding-top: 75%; 4:3 比例 */
+  /* 改为16:9比例（常见宽屏比例） */
+  padding-top: 56.25%; 
   overflow: hidden; // 移除圆角
 }
 
@@ -1477,11 +1479,33 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .caption-container {
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
-  padding-left: 0.5rem !important;
-  padding-right: 0.5rem !important;
+  /* 基础定位：底部0，左右0 */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  /* 背景和内边距 */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  
+  /* 文字样式 */
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  
+  /* 响应式调整：小屏幕上隐藏 */
+  @media (max-width: 768px) {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
 }
+// .caption-container {
+//   padding-top: 0.5rem !important;
+//   padding-bottom: 0.5rem !important;
+//   padding-left: 0.5rem !important;
+//   padding-right: 0.5rem !important;
+// }
 
 // font
 body {
