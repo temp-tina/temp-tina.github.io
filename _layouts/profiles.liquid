@@ -5,7 +5,7 @@ layout: default
   <div class="row text-center justify-content-center">
     <!-- Faculty Section -->
     {% assign categories = 'faculty,phd,master,undergraduate' | split: ',' %}
-    {% assign category_names = 'Faculty,PhD Students,Master Students,Undergraduate Students' | split: ',' %}
+    {% assign category_names = 'Faculty 教师,PhD Students 博士生,Master Students 硕士生,Undergraduate Students 本科生' | split: ',' %}
     {% for category in categories %}
       {% assign index = forloop.index0 %}
       <div class="col-md-12">
@@ -104,7 +104,6 @@ layout: default
           {% if members.size > 0 %}
             {% if total_categories > 1 %}
               <div class="col-lg-3 col-md-4 col-sm-12 justify-content-center">
-                <h3 class="mt-4">{{ cat_key }}</h3>
                 {% for member in members %}
                   <div class="mb-3">
                     {% if member.url %}
@@ -123,7 +122,6 @@ layout: default
               </div>
             {% else %}
               <div class="col-md-12 justify-content-center">
-                <h3 class="mt-4 text-center">{{ cat_key }}</h3>
                 {% assign half_member = members.size | divided_by: 2 %}
                 {% if half_member != members.size - half_member %}
                   {% assign half_member = half_member | plus: 1 %}
