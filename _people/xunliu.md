@@ -1,6 +1,6 @@
 ---
 name: Xun Liu
-photo: xun.jpg
+photo: boy.png
 info: TEST alumni
 research_interests:
   - Adversarial ML

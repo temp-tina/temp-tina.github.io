@@ -1,6 +1,6 @@
 ---
 name: Jiayue Pu
-photo: ppp.jpg
+photo: boy.png
 info: Undergraduate
 research_interests:
   - LLM Memeorization

@@ -1,6 +1,6 @@
 ---
 name: Sha Liu
-photo: shaliu.jpg
+photo: boy.png
 info: Visiting PhD
 research_interests:
   - Natural Language Processing

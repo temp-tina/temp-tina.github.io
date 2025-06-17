@@ -1,6 +1,6 @@
 ---
 name: Zhenxing Chen
-photo: chenzhenxing.jpg
+photo: boy.png
 info: Undergraduate
 research_interests:
   - Language Agents

@@ -1,6 +1,6 @@
 ---
 name: Haowen Li
-photo: haowenli.jpg
+photo: boy.png
 info: PhD Student, w/ Xueqi Cheng
 research_interests:
   - Recommender Systems

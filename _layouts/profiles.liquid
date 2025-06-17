@@ -41,6 +41,9 @@ layout: default
                     {% else %}
                       <h5 class="card-title">{{ person.name }}</h5>
                     {% endif %}
+                    {% if person.cname %}
+                      <p class="card-text" style="color: black; margin-bottom: 0.2rem;">{{ person.cname }}</p>
+                    {% endif %}
                     <p class="card-text" style="color: gray">{{ person.info }}</p>
                     <div class="d-flex justify-content-center">
                       {% if person.homepage %}

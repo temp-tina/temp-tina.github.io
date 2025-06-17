@@ -1,6 +1,6 @@
 ---
 name: Jiajun Tan
-photo: jiajun.jpg
+photo: boy.png
 info: PhD Student, w/ Huawei Shen
 research_interests:
   - Machine Unlearning

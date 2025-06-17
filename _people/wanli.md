@@ -1,6 +1,6 @@
 ---
 name: Wanli Yang
-photo: wanli.jpg
+photo: boy.png
 info: PhD Student, w/ Xinran Liu
 research_interests:
   - Knowledge Editing

@@ -1,6 +1,6 @@
 ---
 name: Rui Tang
-photo: tangrui.jpg
+photo: boy.png
 info: Undergraduate
 research_interests:
   - Knowledge Editing

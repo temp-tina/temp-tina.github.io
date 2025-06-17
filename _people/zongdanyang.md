@@ -1,6 +1,6 @@
 ---
 name: Danyang Zong
-photo: zdy.png
+photo: boy.png
 info: Visiting Master Student, w/ Huawei Shen
 research_interests:
   - Recommender Systems
