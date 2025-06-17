@@ -36,13 +36,14 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
   ```
   ---
   name: San Zhang
+  cname: 张三 (可选)
   photo: zhangsan.jpg (置于`/assets/img/people/`文件夹下)
   info: Associate Professor
   research_interests:
     - Large language Models
     - Recommendation Systems
     - Graph Neural Networks
-  category: faculty (可选：faculty, phd, master, undergraduate)
+  category: faculty (可选：faculty, phd, master, undergraduate, alumni)
   (下面链接为可选项)
   homepage: https://example.com
   email: example@example.com
@@ -54,23 +55,6 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
   ---
   ```
 
-## Projects
-
-- 在`_projects/`文件夹下创建新的markdown文件，如`project_1.md`
-  - 模板如下：
-    ```
-    ---
-    layout: project
-    title: "example"
-    author:
-    - San Zhang
-    - Si Li
-    description: example
-    img: example.png (封面图片，置于`/assets/img/project/cover/`文件夹下)
-    time: 2024-01-02 15:59:00
-    ---
-    网页内容
-    ```
 
 ## Publications
 
@@ -103,14 +87,6 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     }
     ```
 
-## Funding
-
-- 文案：`_pages/funding.md`
-- 机构logo：`_data/funding.yml`
-  - 需要填写：
-    - `logo`：机构logo名称，如`example.png`，置于`/assets/img/funding/`文件夹下
-    - `name`：机构名称
-    - `url`：机构链接
 
 ## Join Us
 
@@ -139,3 +115,31 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     ---
     [^1]: 脚注内容
     ```
+
+
+
+## 已删除
+### Projects
+- 在`_projects/`文件夹下创建新的markdown文件，如`project_1.md`
+  - 模板如下：
+    ```
+    ---
+    layout: project
+    title: "example"
+    author:
+    - San Zhang
+    - Si Li
+    description: example
+    img: example.png (封面图片，置于`/assets/img/project/cover/`文件夹下)
+    time: 2024-01-02 15:59:00
+    ---
+    网页内容
+    ```
+
+### Funding
+- 文案：`_pages/funding.md`
+- 机构logo：`_data/funding.yml`
+  - 需要填写：
+    - `logo`：机构logo名称，如`example.png`，置于`/assets/img/funding/`文件夹下
+    - `name`：机构名称
+    - `url`：机构链接
