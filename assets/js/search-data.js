@@ -50,61 +50,76 @@ ninja.data = [{
           section: "News",},{id: "news-shiyu-ni-won-the-iclr-2026-best-paper-award-congratulations",
           title: 'Shiyu Ni won the ICLR 2026 best paper award, congratulations!',
           description: "",
-          section: "News",},{id: "people-chenzhenxing",
-          title: 'Chenzhenxing',
+          section: "News",},{id: "people-hengran",
+          title: 'Hengran',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/chenzhenxing.html";
-            },},{id: "people-haowenli",
-          title: 'Haowenli',
+              window.location.href = "/people/hengran.html";
+            },},{id: "people-huangwei",
+          title: 'Huangwei',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/haowenli.html";
-            },},{id: "people-jiajun",
-          title: 'Jiajun',
+              window.location.href = "/people/huangwei.html";
+            },},{id: "people-jiahan",
+          title: 'Jiahan',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/jiajun.html";
+              window.location.href = "/people/jiahan.html";
             },},{id: "people-keping",
           title: 'Keping',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/keping.html";
-            },},{id: "people-pujiayue",
-          title: 'Pujiayue',
+            },},{id: "people-lida",
+          title: 'Lida',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/pujiayue.html";
-            },},{id: "people-shaliu",
-          title: 'Shaliu',
+              window.location.href = "/people/lida.html";
+            },},{id: "people-lulu",
+          title: 'Lulu',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/shaliu.html";
-            },},{id: "people-tangrui",
-          title: 'Tangrui',
+              window.location.href = "/people/lulu.html";
+            },},{id: "people-minghao",
+          title: 'Minghao',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/tangrui.html";
-            },},{id: "people-tanhexiang",
-          title: 'Tanhexiang',
+              window.location.href = "/people/minghao.html";
+            },},{id: "people-mingkun",
+          title: 'Mingkun',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/tanhexiang.html";
-            },},{id: "people-wanli",
-          title: 'Wanli',
+              window.location.href = "/people/mingkun.html";
+            },},{id: "people-shiyu",
+          title: 'Shiyu',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/wanli.html";
-            },},{id: "people-xunliu",
-          title: 'Xunliu',
+              window.location.href = "/people/shiyu.html";
+            },},{id: "people-sihui",
+          title: 'Sihui',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/xunliu.html";
-            },},{id: "people-zongdanyang",
-          title: 'Zongdanyang',
+              window.location.href = "/people/sihui.html";
+            },},{id: "people-wanqing",
+          title: 'Wanqing',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/zongdanyang.html";
+              window.location.href = "/people/wanqing.html";
+            },},{id: "people-xiaojie",
+          title: 'Xiaojie',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/xiaojie.html";
+            },},{id: "people-yingqiong",
+          title: 'Yingqiong',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/yingqiong.html";
+            },},{id: "people-yuchen",
+          title: 'Yuchen',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/yuchen.html";
             },},{id: "seminars-example",
           title: 'example',
           description: "",
