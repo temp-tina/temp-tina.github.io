@@ -1479,16 +1479,13 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* 针对 caption 容器的样式 */
 .caption-container {
-  /* 让容器宽度由内容决定，而不是占满父元素 */
-  display: inline-block; 
-  /* 或者用 width: fit-content; 效果类似，选其一即可 */
-  /* width: fit-content; */  
-  margin: 0 auto; /* 让容器在水平方向居中（如果需要） */
-  padding: 8px 12px; /* 保留一点内边距，让文字不贴着边框 */
-  /* 去掉不必要的边框、背景（如果之前有的话） */
+  /* 改为 block 元素，方便用 margin 居中 */
+  display: block; 
+  width: fit-content; /* 宽度由内容决定 */
+  margin: 0 auto;     /* 水平居中 */
+  padding: 8px 12px; 
   background: transparent; 
   border: none;
-  /* 文字样式按需调整 */
   font-size: 16px;
   color: #333;
   text-align: center;
