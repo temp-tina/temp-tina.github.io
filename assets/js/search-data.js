@@ -65,6 +65,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/jiajun.html";
+            },},{id: "people-keping",
+          title: 'Keping',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/keping.html";
             },},{id: "people-pujiayue",
           title: 'Pujiayue',
           description: "",
@@ -75,11 +80,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/shaliu.html";
-            },},{id: "people-sunfei",
-          title: 'Sunfei',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/sunfei.html";
             },},{id: "people-tangrui",
           title: 'Tangrui',
           description: "",
