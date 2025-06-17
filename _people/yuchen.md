@@ -6,6 +6,7 @@ info: Ph.D. 2023-
 research_interests:
   - TODO
 category: phd
+year: 2023
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

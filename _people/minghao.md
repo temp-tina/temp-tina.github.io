@@ -6,6 +6,7 @@ info: Master 2025-
 research_interests:
   - RAG
 category: master
+year: 2025
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

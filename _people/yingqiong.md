@@ -1,11 +1,12 @@
 ---
 name: Yingqiong Cai
 cname: 蔡银琼
-photo: gril.png
+photo: girl.png
 info: Ph.D. 2018-2024
 research_interests:
   - TODO
 category: alumni
+year: 2018
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

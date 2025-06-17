@@ -1,11 +1,12 @@
 ---
 name: Hengran Zhang
 cname: 张恒然
-photo: gril.png
+photo: girl.png
 info: Ph.D. 2022-
 research_interests:
   - TODO
 category: phd
+year: 2022
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

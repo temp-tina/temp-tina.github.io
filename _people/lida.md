@@ -6,6 +6,7 @@ info: Ph.D. 2021-
 research_interests:
   - TODO
 category: phd
+year: 2021
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

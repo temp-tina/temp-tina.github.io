@@ -1,11 +1,12 @@
 ---
 name: Sihui Yang
 cname: 杨思慧
-photo: gril.png
+photo: girl.png
 info: Master 2022-
 research_interests:
   - TODO
 category: master
+year: 2022
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

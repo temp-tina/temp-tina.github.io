@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The first time to build the home page template!
+Minghao Tang started to create the group homepage.

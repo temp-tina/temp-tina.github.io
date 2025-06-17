@@ -11,7 +11,9 @@ layout: default
       <div class="col-md-12">
         <h2>{{ category_names[index] }}</h2>
         <div class="row justify-content-center">
-          {% for person in site.people %}
+          {% assign sorted_people = site.people | where: "category", category | sort: "year" %}
+          {% for person in sorted_people %}
+
             {% if person.category == category %}
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="h-100 person-card">

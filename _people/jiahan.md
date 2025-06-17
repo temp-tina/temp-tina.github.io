@@ -1,11 +1,12 @@
 ---
 name: Jiahan Chen
 cname: 陈佳含
-photo: gril.png
+photo: girl.png
 info: Master 2024-
 research_interests:
   - TODO
 category: master
+year: 2024
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

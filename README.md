@@ -37,13 +37,14 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
   ---
   name: San Zhang
   cname: 张三 (可选)
-  photo: zhangsan.jpg (置于`/assets/img/people/`文件夹下)
-  info: Associate Professor
+  photo: boy.png (置于`/assets/img/people/`文件夹下，boy.png和girl.png是默认图片)
+  info: Ph.D. 2021-
   research_interests:
     - Large language Models
     - Recommendation Systems
     - Graph Neural Networks
-  category: faculty (可选：faculty, phd, master, undergraduate, alumni)
+  category: phd (可选：faculty, phd, master, undergraduate, alumni)
+  year: 2021 (入学年份，用于同一category下排序)
   (下面链接为可选项)
   homepage: https://example.com
   email: example@example.com

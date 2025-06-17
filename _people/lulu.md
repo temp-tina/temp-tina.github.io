@@ -1,11 +1,12 @@
 ---
 name: Lulu Yu
 cname: 于璐璐
-photo: gril.png
+photo: girl.png
 info: Master 2023-
 research_interests:
   - TODO
 category: master
+year: 2023
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

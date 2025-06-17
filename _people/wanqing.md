@@ -1,11 +1,12 @@
 ---
 name: Wanqing Cui
 cname: 崔莞清
-photo: gril.png
+photo: girl.png
 info: Ph.D. 2018-
 research_interests:
   - TODO
 category: phd
+year: 2018
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io

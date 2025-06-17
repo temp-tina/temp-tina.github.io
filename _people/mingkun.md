@@ -1,11 +1,12 @@
 ---
 name: Mingkun Zhang
 cname: 张明坤
-photo: gril.png
+photo: girl.png
 info: Ph.D. 2020-
 research_interests:
   - TODO
 category: phd
+year: 2020
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io
