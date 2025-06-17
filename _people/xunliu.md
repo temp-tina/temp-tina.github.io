@@ -1,12 +1,12 @@
 ---
 name: Xun Liu
 photo: xun.jpg
-info: Undergraduate
+info: TEST alumni
 research_interests:
   - Adversarial ML
   - AI Red-teaming
   - Language Agents
-category: undergraduate
+category: alumni
 
 homepage: https://antiquality.github.io
 email: liuxun21@mails.ucas.ac.cn

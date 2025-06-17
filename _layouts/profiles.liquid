@@ -4,8 +4,8 @@ layout: default
 <div class="container">
   <div class="row text-center justify-content-center">
     <!-- Faculty Section -->
-    {% assign categories = 'faculty,phd,master,undergraduate' | split: ',' %}
-    {% assign category_names = 'Faculty 教师,PhD Students 博士生,Master Students 硕士生,Undergraduate Students 本科生' | split: ',' %}
+    {% assign categories = 'faculty,phd,master,undergraduate,alumni' | split: ',' %}
+    {% assign category_names = 'Faculty 教师,PhD Students 博士生,Master Students 硕士生,Undergraduate Students 本科生,Alumni 毕业生' | split: ',' %}
     {% for category in categories %}
       {% assign index = forloop.index0 %}
       <div class="col-md-12">
@@ -80,6 +80,7 @@ layout: default
       <div class="spacer"></div>
     {% endfor %}
   </div>
+
 
   {% assign total_categories = 0 %}
   {% for category in site.data.alumni %}
