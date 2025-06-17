@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join_us/";
           },
-        },{id: "news-the-first-time-to-build-the-home-page-template",
-          title: 'The first time to build the home page template!',
+        },{id: "news-minghao-tang-started-to-create-the-group-homepage",
+          title: 'Minghao Tang started to create the group homepage.',
           description: "",
           section: "News",},{id: "news-shiyu-ni-won-the-iclr-2026-best-paper-award-congratulations",
           title: 'Shiyu Ni won the ICLR 2026 best paper award, congratulations!',
