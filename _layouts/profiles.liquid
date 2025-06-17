@@ -4,8 +4,10 @@ layout: default
 <div class="container">
   <div class="row text-center justify-content-center">
     <!-- Faculty Section -->
-    {% assign categories = 'faculty,phd,master,undergraduate,alumni' | split: ',' %}
-    {% assign category_names = 'Faculty 教师,Ph.D. Students 博士生,Master Students 硕士生,Undergraduate Students 本科生,Alumni 毕业生' | split: ',' %}
+    {% assign categories = 'faculty,phd,master,alumni' | split: ',' %}
+    {% assign category_names = 'Faculty 教师,Ph.D. Students 博士生,Master Students 硕士生,Alumni 毕业生' | split: ',' %}
+    <!-- undergraduate; Undergraduate Students 本科生. 暂时去掉了-->
+
     {% for category in categories %}
       {% assign index = forloop.index0 %}
       <div class="col-md-12">
