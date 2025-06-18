@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-home",
-    title: "Home",
+    id: "nav-",
+    title: "",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -44,11 +44,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/join_us/";
           },
-        },{id: "news-minghao-tang-started-to-create-the-group-homepage",
-          title: 'Minghao Tang started to create the group homepage.',
+        },{id: "news-minghao-tang-started-to-create-the-group-homepage-明昊开始制作小组主页",
+          title: 'Minghao Tang started to create the group homepage.  明昊开始制作小组主页。',
           description: "",
-          section: "News",},{id: "news-shiyu-ni-won-the-iclr-2026-best-paper-award-congratulations",
-          title: 'Shiyu Ni won the ICLR 2026 best paper award, congratulations!',
+          section: "News",},{id: "news-shiyu-ni-won-the-iclr-2026-best-paper-award-congratulations-倪诗宇获得了iclr-2026最佳论文奖-恭喜",
+          title: 'Shiyu Ni won the ICLR 2026 best paper award, congratulations!  倪诗宇获得了ICLR 2026最佳论文奖，恭喜！',
           description: "",
           section: "News",},{id: "people-hengran",
           title: 'Hengran',
