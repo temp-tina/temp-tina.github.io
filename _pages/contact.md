@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /join_us/
-title: join us
+permalink: /contact/
+title: contact
 nav: true
 nav_order: 7
 ---

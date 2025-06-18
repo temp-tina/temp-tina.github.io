@@ -10,7 +10,16 @@ layout: default
 
 <div class="post">
   <header class="post-header" style="text-align: center;">
-    <h1 class="post-title">{{ page.title | capitalize }}</h1>
+    {% if page.title == "title" %}
+      <h1 class="post-title">News 新闻动态</h1>
+    {% elsif page.title == "seminars" %}
+      <h1 class="post-title">Seminars 研讨会</h1>
+    {% elsif page.title == "contact" %}
+      <h1 class="post-title">Contact 联系我们</h1>
+    {% else %}
+      <h1 class="post-title">{{ page.title | capitalize }}</h1>
+    {% endif %}
+    
     <p class="post-description">{{ page.description }}</p>
   </header>
 

@@ -16,8 +16,7 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <!-- {{ page.title }} -->
-    <h1 class="post-title">News 新闻动态</h1>
+    <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       Created in {{ page.date | date: '%B %d, %Y' }}
       {% if page.author %}by {{ page.author }}{% endif %}

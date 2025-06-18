@@ -95,9 +95,9 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
   - venues.yml里添加不同会议的标签
 
 
-## Join Us
+## Contact
 
-- 内容：`_pages/join_us.md`
+- 内容：`_pages/contact.md`
 
 ## Markdown说明
 
