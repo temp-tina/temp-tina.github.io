@@ -83,10 +83,11 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777}, # 添加论文页面(可以用web=)
     github={https://github.com/alshedivat/al-folio/}, # 添加github链接
     pdf={example_pdf.pdf}, # 添加pdf文件，置于`/assets/pdf/`文件夹下 (也可以是url)
+    annotation={* contributed equally<br>† corresponding author}, # 添加注释，位于作者旁
+
     google_scholar_id={qyhmnyLat1gC}, # 添加google scholar id，用于引用计数（似乎有问题）
     video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ}, # 添加视频链接
     additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)}, # 添加额外信息，位于期刊名称旁
-    annotation={* Example use of superscripts<br>† Albert Einstein}, # 添加注释，位于作者旁
     }
     ```
   - venues.yml里添加不同会议的标签

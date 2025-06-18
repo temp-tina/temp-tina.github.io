@@ -1,17 +1,29 @@
 ---
 ---
-@article{ni2024llms,
+@article{ni2025towards,
   abbr = {ACL},
+
+  title={Towards fully exploiting llm internal states to enhance knowledge boundary perception},
+  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Yu, Lulu and Bi, Baolong and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2502.11677},
+  year={2025},
+
+  abstract="Large language models (LLMs) exhibit impressive performance across diverse tasks but often struggle to accurately gauge their knowledge boundaries, leading to confident yet incorrect responses. This paper explores leveraging LLMs' internal states to enhance their perception of knowledge boundaries from efficiency and risk perspectives. We investigate whether LLMs can estimate their confidence using internal states before response generation, potentially saving computational resources. Our experiments on datasets like Natural Questions, HotpotQA, and MMLU reveal that LLMs demonstrate significant pre-generation perception, which is further refined post-generation, with perception gaps remaining stable across varying conditions. To mitigate risks in critical domains, we introduce Consistency-based Confidence Calibration (C3), which assesses confidence consistency through question reformulation. C3 significantly improves LLMs' ability to recognize their knowledge gaps, enhancing the unknown perception rate by 5.6\% on NQ and 4.9\% on HotpotQA. Our findings suggest that pre-generation confidence estimation can optimize efficiency, while C3 effectively controls output risks, advancing the reliability of LLMs in practical applications.",
+  github={https://github.com/Trustworthy-Information-Access/LLM-Knowledge-Boundary-Perception-via-Internal-States},
+  pdf={https://arxiv.org/pdf/2502.11677}
+}
+
+@article{ni2024llms,
+  abbr = {ACL (Findings)},
   
   title={When Do LLMs Need Retrieval Augmentation? Mitigating LLMs' Overconfidence Helps Retrieval Augmentation},
-  author={Ni, Shiyu* and Bi, Keping† and Guo, Jiafeng and Cheng, Xueqi},
+  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Cheng, Xueqi},
   journal={arXiv preprint arXiv:2402.11457},
   year={2024},
 
   abstract="Large Language Models (LLMs) have been found to have difficulty knowing they do not possess certain knowledge and tend to provide specious answers in such cases. Retrieval Augmentation (RA) has been extensively studied to mitigate LLMs' hallucinations. However, due to the extra overhead and unassured quality of retrieval, it may not be optimal to conduct RA all the time. A straightforward idea is to only conduct retrieval when LLMs are uncertain about a question. This motivates us to enhance the LLMs' ability to perceive their knowledge boundaries to help RA. In this paper, we first quantitatively measure LLMs' such ability and confirm their overconfidence. Then, we study how LLMs' certainty about a question correlates with their dependence on external retrieved information. We propose several methods to enhance LLMs' perception of knowledge boundaries and show that they are effective in reducing overconfidence. Additionally, equipped with these methods, LLMs can achieve comparable or even better performance of RA with much fewer retrieval calls.",
   github={https://github.com/ShiyuNee/When-to-Retrieve},
-  pdf={https://arxiv.org/pdf/2402.11457},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+  pdf={https://arxiv.org/pdf/2402.11457}
 }
 
 
