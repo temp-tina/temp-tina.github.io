@@ -48,6 +48,10 @@
   url: https://sigir.org
   color: "#F25D27"
 
+"SIGIR-AP":
+  url: https://www.sigir-ap.org/
+  color: "#F25D27"
+
 "KDD":
   url: https://www.kdd.org/
   color: "#F25D27"
