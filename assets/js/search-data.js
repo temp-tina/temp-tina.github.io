@@ -37,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-join-us",
-          title: "join us",
+        },{id: "nav-contact",
+          title: "contact",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/join_us/";
+            window.location.href = "/contact/";
           },
         },{id: "news-minghao-tang-started-to-create-the-group-homepage",
           title: 'Minghao Tang started to create the group homepage.',
