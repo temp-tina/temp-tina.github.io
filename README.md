@@ -63,11 +63,11 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
   - 模板如下：
     ```
     @article{PhysRev.47.777,
-    abbr={PhysRev},
+    abbr={PhysRev},  # 会议标签
 
+    # -----直接复制bib文件-----
     title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
     author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-    abstract={In a complete theory there is an element corresponding to each element of reality...},
     journal={Phys. Rev.},
     location={New Jersey},
     volume={47},
@@ -78,8 +78,10 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     month={May},
     publisher=aps,
     doi={10.1103/PhysRev.47.777},
-    url={http://link.aps.org/doi/10.1103/PhysRev.47.777}, (bib里面自带，没有就算了)
+    url={http://link.aps.org/doi/10.1103/PhysRev.47.777}, # (bib里面自带，没有就算了)
 
+    # -----主要添加以下内容-----
+    abstract={In a complete theory there is an element corresponding to each element of reality...},  # 论文摘要
     html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777}, # 添加论文页面(可以用web=)
     github={https://github.com/alshedivat/al-folio/}, # 添加github链接
     pdf={example_pdf.pdf}, # 添加pdf文件，置于`/assets/pdf/`文件夹下 (也可以是url)
