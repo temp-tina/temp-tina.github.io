@@ -125,36 +125,11 @@ ninja.data = [{
           description: "",
           section: "Seminars",handler: () => {
               window.location.href = "/seminars/example/";
-            },},{id: "seminars-reasoning-errors-of-llms",
-          title: 'Reasoning Errors of LLMs',
-          description: "",
-          section: "Seminars",handler: () => {
-              window.location.href = "/seminars/reasoning_error_of_LLMs_Wanli/";
-            },},{id: "seminars-rethinking-llm-unlearning-benchmarks-and-datasets",
-          title: 'Rethinking LLM Unlearning: Benchmarks and Datasets',
-          description: "",
-          section: "Seminars",handler: () => {
-              window.location.href = "/seminars/rethinking_LLM_unlearning_qrc/";
-            },},{id: "seminars-towards-robust-safety-alignment-of-llms",
-          title: 'Towards Robust Safety Alignment of LLMs',
-          description: "",
-          section: "Seminars",handler: () => {
-              window.location.href = "/seminars/robust_alignment_LLMs/";
             },},{id: "seminars-rethinking-self-consistency-for-hallucination-detection-in-llms",
           title: 'Rethinking Self-Consistency for Hallucination Detection in LLMs',
           description: "",
           section: "Seminars",handler: () => {
               window.location.href = "/seminars/self-consistency_ls/";
-            },},{id: "seminars-ai-scheming-frontier-models-may-pursue-secret-goals-and-lie-to-you",
-          title: 'AI Scheming: Frontier Models may Pursue Secret Goals and Lie to You',
-          description: "",
-          section: "Seminars",handler: () => {
-              window.location.href = "/seminars/ai_scheming_xun/";
-            },},{id: "seminars-relearn-unlearning-via-learning-for-large-language-models",
-          title: 'ReLearn: Unlearning via Learning for Large Language Models',
-          description: "",
-          section: "Seminars",handler: () => {
-              window.location.href = "/seminars/ReLearn_paperReading_honglin/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
