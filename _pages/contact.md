@@ -8,17 +8,13 @@ nav_order: 7
 
 Thank you so much for your interest in our work!
 
-We are actively looking for students and postdocs. STAR group welcomes applicants from diverse backgrounds.
+We are recruiting self-motivated master students who are interested in conducting innovative research. 
+Undergraduate students who are willing to pursue a Ph.D. or master degree in Institute of Computing Technology CAS or abroad are welcome to do internships in our group. 
 
-## UCAS Undergraduate
+If you are interested, please send your resume to Prof. Bi via bikeping[at]ict.ac.cn with your research interests and future plan.
 
-We welcome motivated undergraduate students to join our research group! We expect applicants to have some prior experience in Natural Language Processing (NLP) or Machine Learning (ML) (research experience is not required). A minimum commitment of 10 hours per week is expected. If you are interested, please contact Prof. Sun via sunfei@ict.ac.cn.
+感谢你对我们工作的关注！
 
-## Outside of UCAS
+我们正在招募积极进取、对开展创新性研究感兴趣的硕士生。也欢迎有意攻读博士学位或硕士学位的本科生到我们团队实习。
 
-We are looking for highly motivated interns to join our research group! Applicants should have a strong interest in Artificial Intelligence (AI) and Natural Language Processing (NLP), along with some prior experience in Machine Learning (ML) or related areas (prior research experience is preferred but not required).
-We require a minimum commitment of 6 months to ensure high-quality research outcomes. Longer-term internships are highly encouraged.
-
-If you are passionate about AI/NLP and want to gain hands-on research experience, please contact Prof. Sun via sunfei@ict.ac.cn with your CV and a brief statement of interest.
-
-We look forward to hearing from you!
+如果你感兴趣，请将你的简历发送至毕老师的邮箱bikeping[at]ict.ac.cn，并附上你的研究兴趣和未来规划。 
