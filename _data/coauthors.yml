@@ -2,13 +2,7 @@
 "bi":
   - firstname: ["Keping"]
     url: http://kepingbi.github.io
-  - firstname: ["test"]
-    url: http://test.com
 
 "ni":
   - firstname: ["Shiyu"]
       url: http://shiyunee.github.io/
-
-"tang":
-  - firstname: ["Minghao"]
-    url: http://mh-tang.github.io/
