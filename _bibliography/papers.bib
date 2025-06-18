@@ -1,5 +1,19 @@
 ---
 ---
+@article{ni2024llms,
+  abbr = {ACL},
+  
+  title={When Do LLMs Need Retrieval Augmentation? Mitigating LLMs' Overconfidence Helps Retrieval Augmentation},
+  author={Ni, Shiyu* and Bi, Keping† and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2402.11457},
+  year={2024},
+
+  abstract="Large Language Models (LLMs) have been found to have difficulty knowing they do not possess certain knowledge and tend to provide specious answers in such cases. Retrieval Augmentation (RA) has been extensively studied to mitigate LLMs' hallucinations. However, due to the extra overhead and unassured quality of retrieval, it may not be optimal to conduct RA all the time. A straightforward idea is to only conduct retrieval when LLMs are uncertain about a question. This motivates us to enhance the LLMs' ability to perceive their knowledge boundaries to help RA. In this paper, we first quantitatively measure LLMs' such ability and confirm their overconfidence. Then, we study how LLMs' certainty about a question correlates with their dependence on external retrieved information. We propose several methods to enhance LLMs' perception of knowledge boundaries and show that they are effective in reducing overconfidence. Additionally, equipped with these methods, LLMs can achieve comparable or even better performance of RA with much fewer retrieval calls.",
+  github={https://github.com/ShiyuNee/When-to-Retrieve},
+  pdf={https://arxiv.org/pdf/2402.11457},
+  annotation={* Example use of superscripts<br>† Albert Einstein},
+}
+
 
 @inproceedings{ni2023comparative,
   abbr = {SIGIR-AP},
@@ -11,64 +25,7 @@
   year={2023},
 
   abstract="Due to the ambiguity and vagueness of a user query, it is essential to identify the query facets for the clarification of user intents. Existing work on query facet generation has achieved compelling performance by sequentially predicting the next facet given previously generated facets based on pre-trained language generation models such as BART. Given a query, there are mainly two types of training objectives to guide the facet generation models. One is to generate the default sequence of ground-truth facets, and the other is to enumerate all the permutations of ground-truth facets and use the sequence that has the minimum loss for model updates. The second is permutation-invariant while the first is not. In this paper, we aim to conduct a systematic comparative study of various types of training objectives, with different properties of not only whether it is permutation-invariant but also whether it conducts sequential prediction and whether it can control the count of output facets. To this end, we propose another three training objectives of different aforementioned properties. For comprehensive comparisons, besides the commonly used evaluation that measures the matching with ground-truth facets, we also introduce two diversity metrics to measure the diversity of the generated facets. Based on an open-domain query facet dataset, i.e., MIMICS, we conduct extensive analyses and show the pros and cons of each method, which could shed light on model training for clarification facet generation.",
-  url="http://dl.acm.org/doi/pdf/10.1145/3624918.3625332",
   github={https://github.com/ShiyuNee/Facet-Generation},
   pdf={https://arxiv.org/pdf/2310.00703}
 }
 
-@inproceedings{yang-etal-2024-fall,
-    abbr = {EMNLP (Findings)},
-
-    web = {https://yangwl.site/collapse-in-model-editing},
-    title = "The Fall of {ROME}: Understanding the Collapse of {LLM}s in Model Editing",
-    author = "Yang, Wanli  and
-      Sun, Fei  and
-      Tan, Jiajun  and
-      Ma, Xinyu  and
-      Su, Du  and
-      Yin, Dawei  and
-      Shen, Huawei",
-    editor = "Al-Onaizan, Yaser  and
-      Bansal, Mohit  and
-      Chen, Yun-Nung",
-    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
-    month = nov,
-    year = "2024",
-    address = "Miami, Florida, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.findings-emnlp.236/",
-    pdf={https://aclanthology.org/2024.findings-emnlp.236.pdf},
-    github={https://github.com/WanliYoung/Collapse-in-Model-Editing},
-    google_scholar={ziOE8S1-AIUC},
-    doi = "10.18653/v1/2024.findings-emnlp.236",
-    pages = "4079--4087",
-    abstract = "Despite significant progress in model editing methods, their application in real-world scenarios remains challenging as they often cause large language models (LLMs) to collapse. Among them, ROME is particularly concerning, as it could disrupt LLMs with only a single edit. In this paper, we study the root causes of such collapse. Through extensive analysis, we identify two primary factors that contribute to the collapse: i) inconsistent handling of prefixed and unprefixed keys in the parameter update equation may result in very small denominators, causing excessively large parameter updates; ii) the subject of collapse cases is usually the first token, whose unprefixed key distribution significantly differs from the prefixed key distribution in autoregressive transformers, causing the aforementioned issue to materialize. To validate our findings, we propose a simple yet effective approach: uniformly using prefixed keys during editing phase and adding prefixes during testing phase to ensure the consistency between training and testing. The experimental results show that the proposed solution can prevent model collapse while maintaining the effectiveness of the edits."
-}
-
-@inproceedings{tan-etal-2024-blinded,
-    abbr = {ACL},
-
-    google_scholar={raTqNPD5sRQC},
-    pdf={https://aclanthology.org/2024.acl-long.337/},
-    html={https://tan-hexiang.github.io/Blinded_by_Generated_Contexts},
-    github={https://github.com/Tan-Hexiang/RetrieveOrGenerated},
-    title = "Blinded by Generated Contexts: How Language Models Merge Generated and Retrieved Contexts When Knowledge Conflicts?",
-    author = "Tan, Hexiang  and
-      Sun, Fei  and
-      Yang, Wanli  and
-      Wang, Yuanzhuo  and
-      Cao, Qi  and
-      Cheng, Xueqi",
-    editor = "Ku, Lun-Wei  and
-      Martins, Andre  and
-      Srikumar, Vivek",
-    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = aug,
-    year = "2024",
-    address = "Bangkok, Thailand",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.acl-long.337/",
-    doi = "10.18653/v1/2024.acl-long.337",
-    pages = "6207--6227",
-    abstract = "While auxiliary information has become a key to enhancing Large Language Models (LLMs), relatively little is known about how LLMs merge these contexts, specifically contexts generated by LLMs and those retrieved from external sources.To investigate this, we formulate a systematic framework to identify whether LLMs' responses are attributed to either generated or retrieved contexts.To easily trace the origin of the response, we construct datasets with conflicting contexts, i.e., each question is paired with both generated and retrieved contexts, yet only one of them contains the correct answer.Our experiments reveal a significant bias in several LLMs (GPT-4/3.5 and Llama2) to favor generated contexts, even when they provide incorrect information.We further identify two key factors contributing to this bias: i) contexts generated by LLMs typically show greater similarity to the questions, increasing their likelihood of being selected; ii) the segmentation process used in retrieved contexts disrupts their completeness, thereby hindering their full utilization in LLMs.Our analysis enhances the understanding of how LLMs merge diverse contexts, offers valuable insights for advancing current LLM augmentation methods, and highlights the risk of generated misinformation for retrieval-augmented LLMs."
-}

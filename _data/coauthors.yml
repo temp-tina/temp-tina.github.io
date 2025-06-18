@@ -1,21 +1,14 @@
-"sun":
-  - firstname: ["Fei"]
-    url: http://ofey.me
+# 添加author url
+"bi":
+  - firstname: ["Keping"]
+    url: http://kepingbi.github.io
+  - firstname: ["test"]
+    url: http://test.com
 
-"tan":
-  - firstname: ["Jiajun"]
-    url: https://sumsky21.github.io/
-  - firstname: ["Hexiang"]
-    url: https://tan-hexiang.github.io/
+"ni":
+  - firstname: ["Shiyu"]
+      url: http://shiyunee.github.io/
 
-"yang":
-  - firstname: ["Wanli"]
-    url: https://yangwl.site/
-
-"liu":
-  - firstname: ["Xun"]
-    url: https://antiquality.github.io/
-
-"zhang":
-  - firstname: ["Kaike"]
-    url: https://kaike-zhang.github.io
+"tang":
+  - firstname: ["Minghao"]
+    url: http://mh-tang.github.io/

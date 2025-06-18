@@ -64,6 +64,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     ```
     @article{PhysRev.47.777,
     abbr={PhysRev},
+
     title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
     author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
     abstract={In a complete theory there is an element corresponding to each element of reality...},
@@ -77,10 +78,11 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     month={May},
     publisher=aps,
     doi={10.1103/PhysRev.47.777},
-    url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+    url={http://link.aps.org/doi/10.1103/PhysRev.47.777}, (bib里面自带，没有就算了)
+
     html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777}, # 添加论文页面(可以用web=)
     github={https://github.com/alshedivat/al-folio/}, # 添加github链接
-    pdf={example_pdf.pdf}, # 添加pdf文件，置于`/assets/pdf/`文件夹下(也可以是url)
+    pdf={example_pdf.pdf}, # 添加pdf文件，置于`/assets/pdf/`文件夹下 (也可以是url)
     google_scholar_id={qyhmnyLat1gC}, # 添加google scholar id，用于引用计数（似乎有问题）
     video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ}, # 添加视频链接
     additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)}, # 添加额外信息，位于期刊名称旁
@@ -88,6 +90,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     }
     ```
   - venues.yml里添加不同会议的标签
+  - coauthors.yml里添加作者信息，可以自动解析
 
 
 ## Join Us
