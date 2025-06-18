@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href="http://english.ict.cas.cn/">@ ICT, CAS</a> <a href="https://github.com/Trustworthy-Information-Access" target="_blank" style="margin-left: 10px;"><i class="fab fa-github"></i> GitHub Homepage</a>
+subtitle: <a href="http://english.ict.cas.cn/">@ ICT, CAS</a>; <a href="https://github.com/Trustworthy-Information-Access">@ GitHub Homepage</a>;  <a href="https://github.com/temp-tina/temp-tina.github.io/blob/main/assets/img/logo.svg">@ Wechat</a>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
