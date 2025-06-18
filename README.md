@@ -90,7 +90,6 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     }
     ```
   - venues.yml里添加不同会议的标签
-  - coauthors.yml里添加作者信息，可以自动解析
 
 
 ## Join Us
