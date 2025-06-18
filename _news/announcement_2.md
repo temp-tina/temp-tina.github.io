@@ -6,3 +6,5 @@ related_posts: false
 ---
 
 Shiyu Ni won the ICLR 2026 best paper award, congratulations!
+
+倪诗宇获得了ICLR 2026最佳论文奖，恭喜！

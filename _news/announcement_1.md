@@ -6,3 +6,5 @@ related_posts: false
 ---
 
 Minghao Tang started to create the group homepage.
+
+明昊开始制作小组主页。
