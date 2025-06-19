@@ -50,7 +50,12 @@ ninja.data = [{
           section: "News",},{id: "news-shiyu-ni-won-the-iclr-2026-best-paper-award-congratulations",
           title: 'Shiyu Ni won the ICLR 2026 best paper award, congratulations!',
           description: "",
-          section: "News",},{id: "people-hengran",
+          section: "News",},{id: "people-benben",
+          title: 'Benben',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/benben.html";
+            },},{id: "people-hengran",
           title: 'Hengran',
           description: "",
           section: "People",handler: () => {
@@ -115,11 +120,21 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/yingqiong.html";
+            },},{id: "people-yingshuo",
+          title: 'Yingshuo',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/yingshuo.html";
             },},{id: "people-yuchen",
           title: 'Yuchen',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/yuchen.html";
+            },},{id: "people-zhikai",
+          title: 'Zhikai',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/zhikai.html";
             },},{id: "seminars-example",
           title: 'example',
           description: "",
