@@ -43,7 +43,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     - Large language Models
     - Recommendation Systems
     - Graph Neural Networks
-  category: phd (可选：faculty, phd, master, alumni. undergraduate暂时先去掉了)
+  category: phd (可选：faculty, phd, master, alumni, visiting)
   year: 2021 (入学年份，用于同一category下排序)
   (下面链接为可选项)
   homepage: https://example.com

@@ -1,12 +1,12 @@
 ---
-name: Wanqing Cui
-cname: 崔莞清
-photo: girl.png
-info: Ph.D. 2018-2025 -> Alibaba
-# research_interests:
-#   - TODO
-category: alumni
-year: 2018
+name: Zhikai Ding
+cname: 丁治凯
+photo: boy.png
+info: Intern 2025-
+research_interests:
+  - TODO
+category: visiting
+year: 2025
 # TODO:
 email: bikeping@ict.ac.cn
 homepage: https://kepingbi.github.io
