@@ -12,6 +12,6 @@ horizontal: false
 
 <div class="container mt-5">
     {% for resource in sorted_resources %}
-    {% include seminar_card.liquid %}
+    {% include resource_card.liquid %}
     {% endfor %}
 </div> 

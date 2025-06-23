@@ -5,23 +5,23 @@
         <div class="col-md-12">
           <div class="card-body">
             <h5 class="card-title seminar-title">
-              <a href="{{ seminar.pdf_link }}" target="_blank" style="color: inherit; text-decoration: none;">
-                {{ seminar.title }}
+              <a href="{{ resource.pdf_link }}" target="_blank" style="color: inherit; text-decoration: none;">
+                {{ resource.title }}
               </a>
             </h5>
             <p class="card-text seminar-presenter">
               <small class="text-muted">
-                {% for presenter in seminar.presenter %}
+                {% for presenter in resource.presenter %}
                   {{ presenter -}}
                   {%- if forloop.last == false %}, {% endif %}
                 {% endfor %}
               </small>
             </p>
             <p class="card-text seminar-date">
-              <small class="text-muted">{{ seminar.date | date: "%B %d, %Y" }}</small>
+              <small class="text-muted">{{ resource.date | date: "%B %d, %Y" }}</small>
             </p>
-            <p class="card-text">{{ seminar.tldr }}</p>
-            <a href="{{ seminar.pdf_link }}" target="_blank" class="btn btn-primary seminar-btn">View PDF</a>
+            <p class="card-text">{{ resource.tldr }}</p>
+            <a href="{{ resource.pdf_link }}" target="_blank" class="btn btn-primary seminar-btn">View PDF</a>
           </div>
         </div>
       </div>
