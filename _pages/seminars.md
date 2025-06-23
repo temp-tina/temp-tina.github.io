@@ -1,13 +1,12 @@
 ---
 layout: page
-title: seminars
-permalink: /seminars/
+title: resources
+permalink: /resources/
 nav: true
 nav_order: 4
 horizontal: false
 ---
 
-<!-- pages/seminars.md -->
 
 {% assign sorted_seminars = site.seminars | sort: "date" | reverse %}
 
