@@ -108,7 +108,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)}, # 添加额外信息，位于期刊名称旁
     }
     ```
-  - venues.yml里添加修改不同会议的标签
+- venues.yml里添加修改不同会议的标签
 
 
 ## Contact
