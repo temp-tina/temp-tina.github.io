@@ -147,7 +147,7 @@ collections:
   # projects:
   #   output: false
   #   permalink: /:collection/:title/
-  seminars:
+  resources:
     output: false
     permalink: /:collection/:title/
 

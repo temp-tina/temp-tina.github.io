@@ -8,10 +8,10 @@ horizontal: false
 ---
 
 
-{% assign sorted_seminars = site.seminars | sort: "date" | reverse %}
+{% assign sorted_resources = site.resources | sort: "date" | reverse %}
 
 <div class="container mt-5">
-    {% for seminar in sorted_seminars %}
+    {% for resource in sorted_resources %}
     {% include seminar_card.liquid %}
     {% endfor %}
 </div> 
