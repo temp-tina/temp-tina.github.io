@@ -57,13 +57,29 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
   ```
 
 
+## Resources
+- 在`_resources/`文件夹下创建新的markdown文件，如`prag.md`，模板如下：
+  ```
+  ---
+  layout: page
+  title: "Parametric Retrieval Augmented Generation"
+  presenter:
+    - Minghao Tang
+  date: 2025-03-26
+  tldr: Parametric RAG proposes a novel paradigm integrating external knowledge as parameters into the feed-forward networks of LLMs.
+  pdf_link: /assets/pdf/prag_0326.pdf
+  ---
+  ```
+
+
 ## Publications
 
 - 编辑`_bibliography/papers.bib`文件
   - 模板如下：
     ```
     @article{PhysRev.47.777,
-    abbr={PhysRev},  # 会议标签
+    # -----会议标签，需要与venues.yml里对应-----
+    abbr={PhysRev},
 
     # -----直接复制bib文件-----
     title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
@@ -92,7 +108,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)}, # 添加额外信息，位于期刊名称旁
     }
     ```
-  - venues.yml里添加不同会议的标签
+  - venues.yml里添加修改不同会议的标签
 
 
 ## Contact
