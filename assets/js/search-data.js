@@ -135,16 +135,16 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/zhikai.html";
-            },},{id: "resources-example",
-          title: 'example',
+            },},{id: "resources-evaluating-retrieval-quality-in-retrieval-augmented-generation",
+          title: 'Evaluating Retrieval Quality in Retrieval-Augmented Generation',
           description: "",
           section: "Resources",handler: () => {
-              window.location.href = "/resources/example/";
-            },},{id: "resources-rethinking-self-consistency-for-hallucination-detection-in-llms",
-          title: 'Rethinking Self-Consistency for Hallucination Detection in LLMs',
+              window.location.href = "/resources/erag/";
+            },},{id: "resources-parametric-retrieval-augmented-generation",
+          title: 'Parametric Retrieval Augmented Generation',
           description: "",
           section: "Resources",handler: () => {
-              window.location.href = "/resources/self-consistency_ls/";
+              window.location.href = "/resources/prag/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
