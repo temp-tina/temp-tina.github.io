@@ -5,6 +5,7 @@
 
 The specific deployment details are in the [ref](https://github.com/alshedivat/al-folio/blob/main/CUSTOMIZE.md).
 
+
 # 使用指南
 
 ## About
@@ -138,7 +139,6 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     ---
     [^1]: 脚注内容
     ```
-
 
 
 ## 已删除
