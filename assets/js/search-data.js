@@ -135,16 +135,16 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/zhikai.html";
-            },},{id: "seminars-example",
+            },},{id: "resources-example",
           title: 'example',
           description: "",
-          section: "Seminars",handler: () => {
-              window.location.href = "/seminars/example/";
-            },},{id: "seminars-rethinking-self-consistency-for-hallucination-detection-in-llms",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/example/";
+            },},{id: "resources-rethinking-self-consistency-for-hallucination-detection-in-llms",
           title: 'Rethinking Self-Consistency for Hallucination Detection in LLMs',
           description: "",
-          section: "Seminars",handler: () => {
-              window.location.href = "/seminars/self-consistency_ls/";
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/self-consistency_ls/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
