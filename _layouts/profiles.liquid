@@ -56,6 +56,9 @@ layout: default
                       {% if person.email %}
                         <a href="mailto:{{ person.email }}" class="mx-2 icon-links"><i class="fas fa-envelope"></i></a>
                       {% endif %}
+                      {% if person.google_scholar %}
+                        <a href="{{ person.google_scholar }}" target="_blank" class="mx-2 icon-links"><i class="fab fa-google"></i></a>
+                      {% endif %}
                       {% if person.github %}
                         <a href="{{ person.github }}" target="_blank" class="mx-2 icon-links"><i class="fab fa-github"></i></a>
                       {% endif %}

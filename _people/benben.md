@@ -4,7 +4,7 @@ cname: 王犇犇
 photo: boy.png
 info: Master 2026-
 research_interests:
-  - TODO
+  - Retrieval
 category: master
 year: 2026
 # TODO:
