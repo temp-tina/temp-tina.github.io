@@ -1,45 +1,7 @@
 ---
 ---
-@article{ni2025annotation,
-  abbr = {Arxiv},
-
-  title={Annotation-Efficient Universal Honesty Alignment},
-  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Tang, Minghao and Wu, Jingtong and Han, Zengxin and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2510.17509},
-  year={2025},
-
-  abstract="Honesty alignment-the ability of large language models (LLMs) to recognize their knowledge boundaries and express calibrated confidence-is essential for trustworthy deployment. Existing methods either rely on training-free confidence estimation (e.g., token probabilities, self-consistency) or training-based calibration with correctness annotations. While effective, achieving universal honesty alignment with training-based calibration requires costly, large-scale labeling. To support annotation-efficient training, we introduce Elicitation-Then-Calibration (EliCal), a two-stage framework that first elicits internal confidence using inexpensive self-consistency supervision, then calibrates this confidence with a small set of correctness annotations. To support a large-scale study, we release HonestyBench, a benchmark covering ten free-form QA datasets with 560k training and 70k evaluation instances annotated with correctness and self-consistency signals. Experiments show that EliCal achieves near-optimal alignment with only 1k correctness annotations (0.18% of full supervision) and better alignment performance on unseen MMLU tasks than the calibration-only baseline, offering a scalable solution toward universal honesty alignment in LLMs.",
-  github={https://github.com/Trustworthy-Information-Access/Annotation-Efficient-Universal-Honesty-Alignment},
-  pdf={https://arxiv.org/abs/2510.17509}
-}
-
-@article{tang2025role,
-  abbr = {Arxiv},
-
-  title={The Role of Parametric Injection-A Systematic Study of Parametric Retrieval-Augmented Generation},
-  author={Tang, Minghao and Ni, Shiyu and Wu, Jingtong and Han, Zengxin and Bi, Keping},
-  journal={arXiv preprint arXiv:2510.12668},
-  year={2025},
-
-  abstract="Retrieval-augmented generation (RAG) enhances large language models (LLMs) by retrieving external documents. As an emerging form of RAG, parametric retrieval-augmented generation (PRAG) encodes documents as model parameters (i.e., LoRA modules) and injects these representations into the model during inference, enabling interaction between the LLM and documents at parametric level. Compared with directly placing documents in the input context, PRAG is more efficient and has the potential to offer deeper model-document interaction. Despite its growing attention, the mechanism underlying parametric injection remains poorly understood. In this work, we present a systematic study of PRAG to clarify the role of parametric injection, showing that parameterized documents capture only partial semantic information of documents, and relying on them alone yields inferior performance compared to interaction at text level. However, these parametric representations encode high-level document information that can enhance the model's understanding of documents within the input context. When combined parameterized documents with textual documents, the model can leverage relevant information more effectively and become more robust to noisy inputs, achieving better performance than either source alone. We recommend jointly using parameterized and textual documents and advocate for increasing the information content of parametric representations to advance PRAG.",
-  pdf={https://www.arxiv.org/abs/2510.12668}
-}
-
-@article{zhang2025llm,
-  abbr = {Arxiv},
-
-  title={LLM-Specific Utility: A New Perspective for Retrieval-Augmented Generation},
-  author={Zhang, Hengran and Bi, Keping and Guo, Jiafeng and Zhang, Jiaming and Wang, Shuaiqiang and Yin, Dawei and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2510.11358},
-  year={2025},
-
-  abstract="Retrieval-augmented generation (RAG) enhances large language models (LLMs) by incorporating external knowledge. While traditional retrieval focuses on relevance, RAG's effectiveness depends on the utility of retrieved passages, i.e., the usefulness in facilitating the generation of an accurate and comprehensive answer. Existing studies often treat utility as a generic attribute, ignoring the fact that different LLMs may benefit differently from the same passage due to variations in internal knowledge and comprehension ability. In this work, we introduce and systematically investigate the notion of LLM-specific utility. Through large-scale experiments across multiple datasets and LLMs, we demonstrate that human-annotated passages are not optimal for LLMs and that ground-truth utilitarian passages are not transferable across different LLMs. These findings highlight the necessity of adopting the LLM-specific utility in RAG research. Our findings indicate that some human-annotated passages are not ground-truth utilitarian passages for specific LLMs, partially due to the varying readability of queries and passages for LLMs, a tendency for which perplexity is a key metric. Based on these findings, we propose a benchmarking procedure for LLM-specific utility judgments. We evaluate existing utility judgment methods on six datasets and find that while verbalized methods using pseudo-answers perform robustly, LLMs struggle to assess utility effectively-failing to reject all passages for known queries and to select truly useful ones for unknown queries.",
-  pdf={https://arxiv.org/abs/2510.11358}
-
-}
-
 @article{huang2025llm,
-  abbr = {Arxiv},
+  abbr = {WSDM},
 
   title={How Do LLM-Generated Texts Impact Term-Based Retrieval Models?},
   author={Huang, Wei and Bi, Keping and Cai, Yinqiong and Chen, Wei and Guo, Jiafeng and Cheng, Xueqi},
@@ -101,32 +63,6 @@
   pdf={https://arxiv.org/abs/2505.20987}  
 }
 
-@article{ni2025knowledge,
-  abbr = {ArXiv},
-
-  title={How Knowledge Popularity Influences and Enhances LLM Knowledge Boundary Perception},
-  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2505.17537},
-  year={2025},
-
-  abstract="Large language models (LLMs) often fail to recognize their knowledge boundaries, producing confident yet incorrect answers. In this paper, we investigate how knowledge popularity affects LLMs' ability to perceive their knowledge boundaries. Focusing on entity-centric factual question answering (QA), we quantify knowledge popularity from three perspectives: the popularity of entities in the question, the popularity of entities in the answer, and relation popularity, defined as their co-occurrence frequency. Experiments on three representative datasets containing knowledge with varying popularity show that LLMs exhibit better QA performance, higher confidence, and more accurate perception on more popular knowledge, with relation popularity having the strongest correlation. Cause knowledge popularity shows strong correlation with LLMs' QA performance, we propose to leverage these signals for confidence calibration. This improves the accuracy of answer correctness prediction by an average of 5.24% across all models and datasets. Furthermore, we explore prompting LLMs to estimate popularity without external corpora, which yields a viable alternative.",
-  pdf={https://arxiv.org/abs/2505.17537}  
-}
-
-@article{zhang2025unleashing,
-  abbr = {Arxiv},
-
-  title={Unleashing the Power of LLMs in Dense Retrieval with Query Likelihood Modeling},
-  author={Zhang, Hengran and Bi, Keping and Guo, Jiafeng and Sun, Xiaojie and Liu, Shihao and Shi, Daiting and Yin, Dawei and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2504.05216},
-  year={2025},
-
-  abstract="Dense retrieval is a crucial task in Information Retrieval (IR), serving as the basis for downstream tasks such as re-ranking and augmenting generation. Recently, large language models (LLMs) have demonstrated impressive semantic understanding capabilities, making them attractive to researchers focusing on dense retrieval. While LLMs, as decoder-style generative models, excel in language generation, they often fall short in modeling global information due to a lack of attention to subsequent tokens. Drawing inspiration from the classical word-based language modeling approach for IR, specifically the query likelihood (QL) model, we aim to leverage the generative strengths of LLMs through QL maximization. Rather than employing QL estimation for document ranking, we propose an auxiliary task of QL maximization to enhance the backbone for subsequent contrastive learning of the retriever. We introduce our model, LLM-QL, which incorporates two key components: Attention Block (AB) and Document Corruption (DC). AB blocks the attention of predictive tokens to the document tokens before the document's ending token, while DC corrupts a document by masking a portion of its tokens during prediction. Evaluations on the in-domain (MS MARCO) and out-of-domain dataset (BEIR) indicate LLM-QL's superiority over other LLM-based retrievers. Furthermore, comprehensive analyses also validate the efficacy of LLM-QL and its components.",
-  github={https://github.com/Trustworthy-Information-Access/LLM-QL},
-  pdf={https://arxiv.org/abs/2504.05216}  
-}
-
-
 @article{li2025bridging,
   abbr = {CIKM},
 
@@ -180,7 +116,7 @@
 
 
 @inproceedings{yu2025unbiased,
-  abbr = {WebConf},
+  abbr = {WebConf (Short)},
 
   title={Unbiased Learning to Rank with Query-Level Click Propensity Estimation: Beyond Pointwise Observation and Relevance},
   author={Yu, Lulu and Bi, Keping and Guo, Jiafeng and Liu, Shihao and Yin, Dawei and Cheng, Xueqi},
@@ -191,6 +127,19 @@
   abstract="Most existing unbiased learning-to-rank (ULTR) approaches are based on the user examination hypothesis, which assumes that users will click a result only if it is both relevant and observed (typically modeled by position). However, in real-world scenarios, users often click only one or two results after examining multiple relevant options, due to limited patience or because their information needs have already been satisfied. Motivated by this, we propose a query-level click propensity model to capture the probability that users will click on different result lists, allowing for non-zero probabilities that users may not click on an observed relevant result. We hypothesize that this propensity increases when more potentially relevant results are present, and refer to this user behavior as relevance saturation bias. Our method introduces a Dual Inverse Propensity Weighting (DualIPW) mechanism-combining query-level and position-level IPW-to address both relevance saturation and position bias. Through theoretical derivation, we prove that DualIPW can learn an unbiased ranking model. Experiments on the real-world Baidu-ULTR dataset demonstrate that our approach significantly outperforms state-of-the-art ULTR baselines.",
   github={https://github.com/Trustworthy-Information-Access/DualIPW},
   pdf={https://dl.acm.org/doi/abs/10.1145/3701716.3715458}
+}
+
+@article{zhang2025clipure,
+  abbr = {ICLR},  
+
+  title={Clipure: Purification in latent space via clip for adversarially robust zero-shot classification},
+  author={Zhang, Mingkun and Bi, Keping and Chen, Wei and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2502.18176},
+  year={2025},
+
+  abstract="In this paper, we aim to build an adversarially robust zero-shot image classifier. We ground our work on CLIP, a vision-language pre-trained encoder model that can perform zero-shot classification by matching an image with text prompts ``a photo of a <class-name>.''. Purification is the path we choose since it does not require adversarial training on specific attack types and thus can cope with any foreseen attacks. We then formulate purification risk as the KL divergence between the joint distributions of the purification process of denoising the adversarial samples and the attack process of adding perturbations to benign samples, through bidirectional Stochastic Differential Equations (SDEs). The final derived results inspire us to explore purification in the multi-modal latent space of CLIP. We propose two variants for our CLIPure approach: CLIPure-Diff which models the likelihood of images' latent vectors with the DiffusionPrior module in DaLLE-2 (modeling the generation process of CLIP's latent vectors), and CLIPure-Cos which models the likelihood with the cosine similarity between the embeddings of an image and ``a photo of a.''. As far as we know, CLIPure is the first purification method in multi-modal latent space and CLIPure-Cos is the first purification method that is not based on generative models, which substantially improves defense efficiency. We conducted extensive experiments on CIFAR-10, ImageNet, and 13 datasets that previous CLIP-based defense methods used for evaluating zero-shot classification robustness. Results show that CLIPure boosts the SOTA robustness by a large margin, e.g., from 71.7% to 91.1% on CIFAR10, from 59.6% to 72.6% on ImageNet, and 108% relative improvements of average robustness on the 13 datasets over previous SOTA.",
+  github={https://github.com/TMLResearchGroup-CAS/CLIPure},
+  pdf={https://arxiv.org/abs/2502.18176}
 }
 
 @article{ni2025towards,
@@ -204,6 +153,117 @@
   abstract="Large language models (LLMs) exhibit impressive performance across diverse tasks but often struggle to accurately gauge their knowledge boundaries, leading to confident yet incorrect responses. This paper explores leveraging LLMs' internal states to enhance their perception of knowledge boundaries from efficiency and risk perspectives. We investigate whether LLMs can estimate their confidence using internal states before response generation, potentially saving computational resources. Our experiments on datasets like Natural Questions, HotpotQA, and MMLU reveal that LLMs demonstrate significant pre-generation perception, which is further refined post-generation, with perception gaps remaining stable across varying conditions. To mitigate risks in critical domains, we introduce Consistency-based Confidence Calibration (C3), which assesses confidence consistency through question reformulation. C3 significantly improves LLMs' ability to recognize their knowledge gaps, enhancing the unknown perception rate by 5.6\% on NQ and 4.9\% on HotpotQA. Our findings suggest that pre-generation confidence estimation can optimize efficiency, while C3 effectively controls output risks, advancing the reliability of LLMs in practical applications.",
   github={https://github.com/Trustworthy-Information-Access/LLM-Knowledge-Boundary-Perception-via-Internal-States},
   pdf={https://arxiv.org/pdf/2502.11677}
+}
+
+@article{wen2024evaluating,
+  abbr = {ACL (Findings)},
+
+  title={Evaluating implicit bias in large language models by attacking from a psychometric perspective},
+  author={Wen, Yuchen and Bi, Keping and Chen, Wei and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2406.14023},
+  year={2025},
+
+  abstract="As large language models (LLMs) become an important way of information access, there have been increasing concerns that LLMs may intensify the spread of unethical content, including implicit bias that hurts certain populations without explicit harmful words. In this paper, we conduct a rigorous evaluation of LLMs' implicit bias towards certain demographics by attacking them from a psychometric perspective to elicit agreements to biased viewpoints. Inspired by psychometric principles in cognitive and social psychology, we propose three attack approaches, i.e., Disguise, Deception, and Teaching. Incorporating the corresponding attack instructions, we built two benchmarks: (1) a bilingual dataset with biased statements covering four bias types (2.7K instances) for extensive comparative analysis, and (2) BUMBLE, a larger benchmark spanning nine common bias types (12.7K instances) for comprehensive evaluation. Extensive evaluation of popular commercial and open-source LLMs shows that our methods can elicit LLMs' inner bias more effectively than competitive baselines. Our attack methodology and benchmarks offer an effective means of assessing the ethical risks of LLMs, driving progress toward greater accountability in their development.",
+  github={https://yuchenwen1.github.io/ImplicitBiasEvaluation/},
+  pdf={https://arxiv.org/abs/2406.14023}
+}
+
+@article{guo2025came,
+  abbr = {TOIS},
+
+  title={Came: Competitively learning a mixture-of-experts model for first-stage retrieval},
+  author={Guo, Jiafeng and Cai, Yinqiong and Bi, Keping and Fan, Yixing and Chen, Wei and Zhang, Ruqing and Cheng, Xueqi},
+  journal={ACM Transactions on Information Systems},
+  volume={43},
+  number={2},
+  pages={1--25},
+  year={2025},
+  publisher={ACM New York, NY},
+
+  abstract="The first-stage retrieval aims to retrieve a subset of candidate documents from a huge collection both effectively and efficiently. Since various matching patterns can exist between queries and relevant documents, previous work tries to combine multiple retrieval models to find as many relevant results as possible. The constructed ensembles, whether learned independently or jointly, do not care which component model is more suitable to an instance during training. Thus, they cannot fully exploit the capabilities of different types of retrieval models in identifying diverse relevance patterns. Motivated by this observation, in this article, we propose a Mixture-of-Experts (MoE) model consisting of representative matching experts and a novel competitive learning mechanism to let the experts develop and enhance their expertise during training. Specifically, our MoE model shares the bottom layers to learn common semantic representations and uses differently structured upper layers to represent various types of retrieval experts. Our competitive learning mechanism has two stages: (1) a standardized learning stage to train the experts equally to develop their capabilities to conduct relevance matching; (2) a specialized learning stage where the experts compete with each other on every training instance and get rewards and updates according to their performance to enhance their expertise on certain types of samples. Experimental results on retrieval benchmark datasets show that our method significantly outperforms the state-of-the-art baselines in the in-domain and out-of-domain settings.",
+  pdf={https://dl.acm.org/doi/full/10.1145/3678880}
+}
+
+@article{zhang2024causaldiff,
+  abbr = {NeurIPS},
+
+  title={Causaldiff: Causality-inspired disentanglement via diffusion model for adversarial defense},
+  author={Zhang, Mingkun and Bi, Keping and Chen, Wei and Chen, Quanrun and Guo, Jiafeng and Cheng, Xueqi},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={124791--124819},
+  year={2024},
+
+  abstract="Despite ongoing efforts to defend neural classifiers from adversarial attacks, they remain vulnerable, especially to unseen attacks. In contrast, humans are difficult to be cheated by subtle manipulations, since we make judgments only based on essential factors. Inspired by this observation, we attempt to model label generation with essential label-causative factors and incorporate label-non-causative factors to assist data generation. For an adversarial example, we aim to discriminate the perturbations as non-causative factors and make predictions only based on the label-causative factors. Concretely, we propose a casual diffusion model (CausalDiff) that adapts diffusion models for conditional data generation and disentangles the two types of casual factors by learning towards a novel casual information bottleneck objective. Empirically, CausalDiff has significantly outperformed state-of-the-art defense methods on various unseen attacks, achieving an average robustness of 86.39% (+4.01%) on CIFAR-10, 56.25% (+3.13%) on CIFAR-100, and 82.62% (+4.93%) on GTSRB (German Traffic Sign Recognition Benchmark).",
+  github={https://github.com/TMLResearchGroup-CAS/CausalDiff},
+  pdf={https://arxiv.org/abs/2410.23091}
+}
+
+@inproceedings{ni2024large,
+  abbr = {CCIR},
+
+  title={Are Large Language Models More Honest in Their Probabilistic or Verbalized Confidence?},
+  author={Ni, Shiyu and Bi, Keping and Yu, Lulu and Guo, Jiafeng},
+  booktitle={China Conference on Information Retrieval},
+  pages={124--135},
+  year={2024},
+  organization={Springer},
+
+  abstract="Large language models (LLMs) have been found to produce hallucinations when the question exceeds their internal knowledge boundaries. A reliable model should have a clear perception of its knowledge boundaries, providing correct answers within its scope and refusing to answer when it lacks knowledge. Existing research on LLMs' perception of their knowledge boundaries typically uses either the probability of the generated tokens or the verbalized confidence as the model's confidence in its response. However, these studies overlook the differences and connections between the two. In this paper, we conduct a comprehensive analysis and comparison of LLMs' probabilistic perception and verbalized perception of their factual knowledge boundaries. First, we investigate the pros and cons of these two perceptions. Then, we study how they change under questions of varying frequencies. Finally, we measure the correlation between LLMs' probabilistic confidence and verbalized confidence. Experimental results show that 1) LLMs' probabilistic perception is generally more accurate than verbalized perception but requires an in-domain validation set to adjust the confidence threshold. 2) Both perceptions perform better on less frequent questions. 3) It is challenging for LLMs to accurately express their internal confidence in natural language.",
+  pdf={https://arxiv.org/abs/2408.09773}
+}
+
+@article{yang2024linkage,
+  abbr = {EMNLP (Findings)},
+
+  title={Linkage: Listwise ranking among varied-quality references for non-factoid qa evaluation via llms},
+  author={Yang, Sihui and Bi, Keping and Cui, Wanqing and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2409.14744},
+  year={2024},
+    
+  abstract="Non-Factoid (NF) Question Answering (QA) is challenging to evaluate due to diverse potential answers and no objective criterion. The commonly used automatic evaluation metrics like ROUGE or BERTScore cannot accurately measure semantic similarities or answers from different perspectives. Recently, Large Language Models (LLMs) have been resorted to for NFQA evaluation due to their compelling performance on various NLP tasks. Common approaches include pointwise scoring of each candidate answer and pairwise comparisons between answers. Inspired by the evolution from pointwise to pairwise to listwise in learning-to-rank methods, we propose a novel listwise NFQA evaluation approach, that utilizes LLMs to rank candidate answers in a list of reference answers sorted by descending quality. Moreover, for NF questions that do not have multi-grade or any golden answers, we leverage LLMs to generate the reference answer list of various quality to facilitate the listwise evaluation. Extensive experimental results on three NFQA datasets, i.e., ANTIQUE, the TREC-DL-NF, and WebGLM show that our method has significantly higher correlations with human annotations compared to automatic scores and common pointwise and pairwise approaches.",
+  pdf={https://arxiv.org/abs/2409.14744}
+}
+
+@inproceedings{bi2024reproducibility,
+  abbr = {ECIR},
+
+  title={Reproducibility Analysis and Enhancements for Multi-aspect Dense Retriever with Aspect Learning},
+  author={Bi, Keping and Sun, Xiaojie and Guo, Jiafeng and Cheng, Xueqi},
+  booktitle={European Conference on Information Retrieval},
+  pages={194--209},
+  year={2024},
+  organization={Springer},
+
+  abstract="Multi-aspect dense retrieval aims to incorporate aspect information (e.g., brand and category) into dual encoders to facilitate relevance matching. As an early and representative multi-aspect dense retriever, MADRAL learns several extra aspect embeddings and fuses the explicit aspects with an implicit aspect "OTHER" for final representation. MADRAL was evaluated on proprietary data and its code was not released, making it challenging to validate its effectiveness on other datasets. We failed to reproduce its effectiveness on the public MA-Amazon data, motivating us to probe the reasons and re-examine its components. We propose several component alternatives for comparisons, including replacing "OTHER" with "CLS" and representing aspects with the first several content tokens. Through extensive experiments, we confirm that learning "OTHER" from scratch in aspect fusion is harmful. In contrast, our proposed variants can greatly enhance the retrieval performance. Our research not only sheds light on the limitations of MADRAL but also provides valuable insights for future studies on more powerful multi-aspect dense retrieval models.",
+  github={https://github.com/sunxiaojie99/Reproducibility-for-MADRAL},
+  pdf={https://arxiv.org/abs/2401.03648}
+}
+
+@inproceedings{sun2024multi,
+  abbr = {WSDM},
+
+  title={A Multi-Granularity-Aware Aspect Learning Model for Multi-Aspect Dense Retrieval},
+  author={Sun, Xiaojie and Bi, Keping and Guo, Jiafeng and Yang, Sihui and Zhang, Qishen and Liu, Zhongyi and Zhang, Guannan and Cheng, Xueqi},
+  booktitle={Proceedings of the 17th ACM International Conference on Web Search and Data Mining},
+  pages={674--682},
+  year={2024},
+
+  abstract="Dense retrieval methods have been mostly focused on unstructured text and less attention has been drawn to structured data with various aspects, e.g., products with aspects such as category and brand. Recent work has proposed two approaches to incorporate the aspect information into item representations for effective retrieval by predicting the values associated with the item aspects. Despite their efficacy, they treat the values as isolated classes (e.g., "Smart Homes", "Home, Garden & Tools", and "Beauty & Health") and ignore their fine-grained semantic relation. Furthermore, they either enforce the learning of aspects into the CLS token, which could confuse it from its designated use for representing the entire content semantics, or learn extra aspect embeddings only with the value prediction objective, which could be insufficient especially when there are no annotated values for an item aspect. Aware of these limitations, we propose a MUlti-granulaRity-aware Aspect Learning model (MURAL) for multi-aspect dense retrieval. It leverages aspect information across various granularities to capture both coarse and fine-grained semantic relations between values. Moreover, MURAL incorporates separate aspect embeddings as input to transformer encoders so that the masked language model objective can assist implicit aspect learning even without aspect-value annotations. Extensive experiments on two real-world datasets of products and mini-programs show that MURAL outperforms state-of-the-art baselines significantly.",
+  pdf={https://arxiv.org/abs/2312.02538}
+}
+
+@article{cui2024more,
+  abbr = {ACL (Findings)},
+
+  title={MORE: Multi-mOdal REtrieval augmented generative commonsense reasoning},
+  author={Cui, Wanqing and Bi, Keping and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2402.13625},
+  year={2024},
+
+  abstract="Since commonsense information has been recorded significantly less frequently than its existence, language models pre-trained by text generation have difficulty to learn sufficient commonsense knowledge. Several studies have leveraged text retrieval to augment the models' commonsense ability. Unlike text, images capture commonsense information inherently but little effort has been paid to effectively utilize them. In this work, we propose a novel Multi-mOdal REtrieval (MORE) augmentation framework, to leverage both text and images to enhance the commonsense ability of language models. Extensive experiments on the Common-Gen task have demonstrated the efficacy of MORE based on the pre-trained models of both single and multiple modalities.",
+  github={https://github.com/VickiCui/MORE},
+  pdf={https://arxiv.org/abs/2402.13625}
 }
 
 @article{ni2024llms,
