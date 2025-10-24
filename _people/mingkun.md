@@ -1,17 +1,17 @@
 ---
 name: Mingkun Zhang
 cname: 张明坤
-photo: girl.png
+photo: mingkun.jpeg
 info: Ph.D. 2020-
 research_interests:
-  - TODO
+  - Adversarial Defense
 category: phd
 year: 2020
 # TODO:
-email: bikeping@ict.ac.cn
-homepage: https://kepingbi.github.io
-google_scholar: https://scholar.google.com/citations?user=kJQYiFIAAAAJ
-github: https://github.com/KepingBi
-x: https://x.com/BiKeping
-linkedin: https://www.linkedin.com/in/keping-bi-b62a3437
+email: zhangmingkun20z@ict.ac.cn
+# homepage: https://kepingbi.github.io
+google_scholar: https://scholar.google.com/citations?user=2pntVN4AAAAJ
+github: https://github.com/ZhangMingKun1
+# x: https://x.com/BiKeping
+# linkedin: https://www.linkedin.com/in/keping-bi-b62a3437
 ---

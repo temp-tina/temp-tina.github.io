@@ -1,7 +1,7 @@
 ---
 name: Yingqiong Cai
 cname: 蔡银琼
-photo: girl.png
+photo: yingqiong.jpeg
 info: Ph.D. 2018-2024 -> Baidu
 # research_interests:
 #   - TODO

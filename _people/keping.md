@@ -1,7 +1,7 @@
 ---
 name: Keping Bi
 cname: 毕可平
-photo: girl.png
+photo: keping.jpg
 info: Associate Professor
 # research_interests:
 category: faculty

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One papers is accepted by WSDM 2025.
+One papers is accepted by WSDM 2025. Congrats to Wei Huang!
