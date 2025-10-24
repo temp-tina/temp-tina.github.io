@@ -72,6 +72,10 @@
   url: https://dl.acm.org/journal/tois
   color: "#4E52A6"
 
-"CSUR":
-  url: https://dl.acm.org/journal/csur
+"CCIR":
+  url: https://www.cips-ir.org.cn/
+  color: "#4E52A6"
+
+"NTCIR":
+  url: https://www.cips-ir.org.cn/
   color: "#4E52A6"

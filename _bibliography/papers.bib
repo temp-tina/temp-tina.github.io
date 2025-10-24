@@ -1,5 +1,198 @@
 ---
 ---
+@article{ni2025annotation,
+  abbr = {Arxiv},
+
+  title={Annotation-Efficient Universal Honesty Alignment},
+  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Tang, Minghao and Wu, Jingtong and Han, Zengxin and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2510.17509},
+  year={2025},
+
+  abstract="Honesty alignment-the ability of large language models (LLMs) to recognize their knowledge boundaries and express calibrated confidence-is essential for trustworthy deployment. Existing methods either rely on training-free confidence estimation (e.g., token probabilities, self-consistency) or training-based calibration with correctness annotations. While effective, achieving universal honesty alignment with training-based calibration requires costly, large-scale labeling. To support annotation-efficient training, we introduce Elicitation-Then-Calibration (EliCal), a two-stage framework that first elicits internal confidence using inexpensive self-consistency supervision, then calibrates this confidence with a small set of correctness annotations. To support a large-scale study, we release HonestyBench, a benchmark covering ten free-form QA datasets with 560k training and 70k evaluation instances annotated with correctness and self-consistency signals. Experiments show that EliCal achieves near-optimal alignment with only 1k correctness annotations (0.18% of full supervision) and better alignment performance on unseen MMLU tasks than the calibration-only baseline, offering a scalable solution toward universal honesty alignment in LLMs.",
+  github={https://github.com/Trustworthy-Information-Access/Annotation-Efficient-Universal-Honesty-Alignment},
+  pdf={https://arxiv.org/abs/2510.17509}
+}
+
+@article{tang2025role,
+  abbr = {Arxiv},
+
+  title={The Role of Parametric Injection-A Systematic Study of Parametric Retrieval-Augmented Generation},
+  author={Tang, Minghao and Ni, Shiyu and Wu, Jingtong and Han, Zengxin and Bi, Keping},
+  journal={arXiv preprint arXiv:2510.12668},
+  year={2025},
+
+  abstract="Retrieval-augmented generation (RAG) enhances large language models (LLMs) by retrieving external documents. As an emerging form of RAG, parametric retrieval-augmented generation (PRAG) encodes documents as model parameters (i.e., LoRA modules) and injects these representations into the model during inference, enabling interaction between the LLM and documents at parametric level. Compared with directly placing documents in the input context, PRAG is more efficient and has the potential to offer deeper model-document interaction. Despite its growing attention, the mechanism underlying parametric injection remains poorly understood. In this work, we present a systematic study of PRAG to clarify the role of parametric injection, showing that parameterized documents capture only partial semantic information of documents, and relying on them alone yields inferior performance compared to interaction at text level. However, these parametric representations encode high-level document information that can enhance the model's understanding of documents within the input context. When combined parameterized documents with textual documents, the model can leverage relevant information more effectively and become more robust to noisy inputs, achieving better performance than either source alone. We recommend jointly using parameterized and textual documents and advocate for increasing the information content of parametric representations to advance PRAG.",
+  pdf={https://www.arxiv.org/abs/2510.12668}
+}
+
+@article{zhang2025llm,
+  abbr = {Arxiv},
+
+  title={LLM-Specific Utility: A New Perspective for Retrieval-Augmented Generation},
+  author={Zhang, Hengran and Bi, Keping and Guo, Jiafeng and Zhang, Jiaming and Wang, Shuaiqiang and Yin, Dawei and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2510.11358},
+  year={2025},
+
+  abstract="Retrieval-augmented generation (RAG) enhances large language models (LLMs) by incorporating external knowledge. While traditional retrieval focuses on relevance, RAG's effectiveness depends on the utility of retrieved passages, i.e., the usefulness in facilitating the generation of an accurate and comprehensive answer. Existing studies often treat utility as a generic attribute, ignoring the fact that different LLMs may benefit differently from the same passage due to variations in internal knowledge and comprehension ability. In this work, we introduce and systematically investigate the notion of LLM-specific utility. Through large-scale experiments across multiple datasets and LLMs, we demonstrate that human-annotated passages are not optimal for LLMs and that ground-truth utilitarian passages are not transferable across different LLMs. These findings highlight the necessity of adopting the LLM-specific utility in RAG research. Our findings indicate that some human-annotated passages are not ground-truth utilitarian passages for specific LLMs, partially due to the varying readability of queries and passages for LLMs, a tendency for which perplexity is a key metric. Based on these findings, we propose a benchmarking procedure for LLM-specific utility judgments. We evaluate existing utility judgment methods on six datasets and find that while verbalized methods using pseudo-answers perform robustly, LLMs struggle to assess utility effectively-failing to reject all passages for known queries and to select truly useful ones for unknown queries.",
+  pdf={https://arxiv.org/abs/2510.11358}
+
+}
+
+@article{huang2025llm,
+  abbr = {Arxiv},
+
+  title={How Do LLM-Generated Texts Impact Term-Based Retrieval Models?},
+  author={Huang, Wei and Bi, Keping and Cai, Yinqiong and Chen, Wei and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2508.17715},
+  year={2025},
+
+  abstract="As more content generated by large language models (LLMs) floods into the Internet, information retrieval (IR) systems now face the challenge of distinguishing and handling a blend of human-authored and machine-generated texts. Recent studies suggest that neural retrievers may exhibit a preferential inclination toward LLM-generated content, while classic term-based retrievers like BM25 tend to favor human-written documents. This paper investigates the influence of LLM-generated content on term-based retrieval models, which are valued for their efficiency and robust generalization across domains. Our linguistic analysis reveals that LLM-generated texts exhibit smoother high-frequency and steeper low-frequency Zipf slopes, higher term specificity, and greater document-level diversity. These traits are aligned with LLMs being trained to optimize reader experience through diverse and precise expressions. Our study further explores whether term-based retrieval models demonstrate source bias, concluding that these models prioritize documents whose term distributions closely correspond to those of the queries, rather than displaying an inherent source bias. This work provides a foundation for understanding and addressing potential biases in term-based IR systems managing mixed-source content.",
+  pdf={https://arxiv.org/abs/2508.17715}  
+}
+
+@article{tang2025injecting,
+  abbr = {SIGIR-AP},
+
+  title={Injecting External Knowledge into the Reasoning Process Enhances Retrieval-Augmented Generation},
+  author={Tang, Minghao and Ni, Shiyu and Guo, Jiafeng and Bi, Keping},
+  journal={arXiv preprint arXiv:2507.19333},
+  year={2025},
+
+  abstract="Retrieval-augmented generation (RAG) has been widely adopted to augment large language models (LLMs) with external knowledge for knowledge-intensive tasks. However, its effectiveness is often undermined by the presence of noisy (i.e., low-quality) retrieved passages. Enhancing LLMs' robustness to such noise is critical for improving the reliability of RAG systems. Recent advances have equipped LLMs with strong reasoning and self-reflection capabilities, allowing them to identify and correct errors in their reasoning process. Inspired by this ability, we propose Passage Injection-a simple yet effective method that explicitly incorporates retrieved passages into LLMs' reasoning process, aiming to enhance the model's ability to recognize and resist noisy passages. We validate Passage Injection under general RAG settings using BM25 as the retriever. Experiments on four reasoning-enhanced LLMs across four factual QA datasets demonstrate that Passage Injection significantly improves overall RAG performance. Further analysis on two noisy retrieval settings-random noise, where the model is provided irrelevant passages, and counterfactual noise, where it is given misleading passages-shows that Passage Injection consistently improves robustness. Controlled experiments confirm that Passage Injection can also effectively leverage helpful passages. These findings suggest that incorporating passages in LLMs' reasoning process is a promising direction for building more robust RAG systems.",
+  github={https://github.com/Trustworthy-Information-Access/Passage-Injection},
+  pdf={https://arxiv.org/abs/2507.19333}
+}
+
+@article{zhang2025distilling,
+  abbr = {SIGIR-AP},
+
+  title={Distilling a Small Utility-Based Passage Selector to Enhance Retrieval-Augmented Generation},
+  author={Zhang, Hengran and Bi, Keping and Guo, Jiafeng and Zhang, Jiaming and Wang, Shuaiqiang and Yin, Dawei and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2507.19102},
+  year={2025},
+  
+  abstract="Retrieval-augmented generation (RAG) enhances large language models (LLMs) by incorporating retrieved information. Standard retrieval process prioritized relevance, focusing on topical alignment between queries and passages. In contrast, in RAG, the emphasis has shifted to utility, which considers the usefulness of passages for generating accurate answers. Despite empirical evidence showing the benefits of utility-based retrieval in RAG, the high computational cost of using LLMs for utility judgments limits the number of passages evaluated. This restriction is problematic for complex queries requiring extensive information. To address this, we propose a method to distill the utility judgment capabilities of LLMs into smaller, more efficient models. Our approach focuses on utility-based selection rather than ranking, enabling dynamic passage selection tailored to specific queries without the need for fixed thresholds. We train student models to learn pseudo-answer generation and utility judgments from teacher LLMs, using a sliding window method that dynamically selects useful passages. Our experiments demonstrate that utility-based selection provides a flexible and cost-effective solution for RAG, significantly reducing computational costs while improving answer quality. We present the distillation results using Qwen3-32B as the teacher model for both relevance ranking and utility-based selection, distilled into RankQwen1.7B and UtilityQwen1.7B. Our findings indicate that for complex questions, utility-based selection is more effective than relevance ranking in enhancing answer generation performance. We will release the relevance ranking and utility-based selection annotations for the MS MARCO dataset, supporting further research in this area.",
+  github={https://github.com/Trustworthy-Information-Access/UtilitySelection},
+  pdf={https://arxiv.org/abs/2507.19102}
+}
+
+@article{zhang2025comparative,
+  abbr = {CCIR},
+
+  title={A Comparative Study of Specialized LLMs as Dense Retrievers},
+  author={Zhang, Hengran and Bi, Keping and Guo, Jiafeng},
+  journal={arXiv preprint arXiv:2507.03958},
+  year={2025},
+
+  abstract="While large language models (LLMs) are increasingly deployed as dense retrievers, the impact of their domain-specific specialization on retrieval effectiveness remains underexplored. This investigation systematically examines how task-specific adaptations in LLMs influence their retrieval capabilities, an essential step toward developing unified retrievers capable of handling text, code, images, and multimodal content. We conduct extensive experiments with eight Qwen2.5 7B LLMs, including base, instruction-tuned, code/math-specialized, long reasoning, and vision-language models across zero-shot retrieval settings and the supervised setting. For the zero-shot retrieval settings, we consider text retrieval from the BEIR benchmark and code retrieval from the CoIR benchmark. Further, to evaluate supervised performance, all LLMs are fine-tuned on the MS MARCO dataset. We find that mathematical specialization and the long reasoning capability cause consistent degradation in three settings, indicating conflicts between mathematical reasoning and semantic matching. The vision-language model and code-specialized LLMs demonstrate superior zero-shot performance compared to other LLMs, even surpassing BM25 on the code retrieval task, and maintain comparable performance to base LLMs in supervised settings. These findings suggest promising directions for the unified retrieval task leveraging cross-domain and cross-modal fusion.",
+  github={https://github.com/Trustworthy-Information-Access/A-Comparative-Study-of-Specialized-LLMs-as-Dense-Retrievers},
+  pdf={https://arxiv.org/abs/2507.03958}
+}
+
+@article{chen2025lifeir,
+  abbr = {NTCIR},
+
+  title={LifeIR at the NTCIR-18 Lifelog-6 Task},
+  author={Chen, Jiahan and Li, Da and Bi, Keping},
+  journal={arXiv preprint arXiv:2505.20987},
+  year={2025},
+  
+  abstract="In recent years, sharing lifelogs recorded through wearable devices such as sports watches and GoPros, has gained significant popularity. Lifelogs involve various types of information, including images, videos, and GPS data, revealing users' lifestyles, dietary patterns, and physical activities. The Lifelog Semantic Access Task(LSAT) in the NTCIR-18 Lifelog-6 Challenge focuses on retrieving relevant images from a large scale of users' lifelogs based on textual queries describing an action or event. It serves users' need to find images about a scenario in the historical moments of their lifelogs. We propose a multi-stage pipeline for this task of searching images with texts, addressing various challenges in lifelog retrieval. Our pipeline includes: filtering blurred images, rewriting queries to make intents clearer, extending the candidate set based on events to include images with temporal connections, and reranking results using a multimodal large language model(MLLM) with stronger relevance judgment capabilities. The evaluation results of our submissions have shown the effectiveness of each stage and the entire pipeline.",
+  pdf={https://arxiv.org/abs/2505.20987}  
+}
+
+@article{ni2025knowledge,
+  abbr = {ArXiv},
+
+  title={How Knowledge Popularity Influences and Enhances LLM Knowledge Boundary Perception},
+  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2505.17537},
+  year={2025},
+
+  abstract="Large language models (LLMs) often fail to recognize their knowledge boundaries, producing confident yet incorrect answers. In this paper, we investigate how knowledge popularity affects LLMs' ability to perceive their knowledge boundaries. Focusing on entity-centric factual question answering (QA), we quantify knowledge popularity from three perspectives: the popularity of entities in the question, the popularity of entities in the answer, and relation popularity, defined as their co-occurrence frequency. Experiments on three representative datasets containing knowledge with varying popularity show that LLMs exhibit better QA performance, higher confidence, and more accurate perception on more popular knowledge, with relation popularity having the strongest correlation. Cause knowledge popularity shows strong correlation with LLMs' QA performance, we propose to leverage these signals for confidence calibration. This improves the accuracy of answer correctness prediction by an average of 5.24% across all models and datasets. Furthermore, we explore prompting LLMs to estimate popularity without external corpora, which yields a viable alternative.",
+  pdf={https://arxiv.org/abs/2505.17537}  
+}
+
+@article{zhang2025unleashing,
+  abbr = {Arxiv},
+
+  title={Unleashing the Power of LLMs in Dense Retrieval with Query Likelihood Modeling},
+  author={Zhang, Hengran and Bi, Keping and Guo, Jiafeng and Sun, Xiaojie and Liu, Shihao and Shi, Daiting and Yin, Dawei and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2504.05216},
+  year={2025},
+
+  abstract="Dense retrieval is a crucial task in Information Retrieval (IR), serving as the basis for downstream tasks such as re-ranking and augmenting generation. Recently, large language models (LLMs) have demonstrated impressive semantic understanding capabilities, making them attractive to researchers focusing on dense retrieval. While LLMs, as decoder-style generative models, excel in language generation, they often fall short in modeling global information due to a lack of attention to subsequent tokens. Drawing inspiration from the classical word-based language modeling approach for IR, specifically the query likelihood (QL) model, we aim to leverage the generative strengths of LLMs through QL maximization. Rather than employing QL estimation for document ranking, we propose an auxiliary task of QL maximization to enhance the backbone for subsequent contrastive learning of the retriever. We introduce our model, LLM-QL, which incorporates two key components: Attention Block (AB) and Document Corruption (DC). AB blocks the attention of predictive tokens to the document tokens before the document's ending token, while DC corrupts a document by masking a portion of its tokens during prediction. Evaluations on the in-domain (MS MARCO) and out-of-domain dataset (BEIR) indicate LLM-QL's superiority over other LLM-based retrievers. Furthermore, comprehensive analyses also validate the efficacy of LLM-QL and its components.",
+  github={https://github.com/Trustworthy-Information-Access/LLM-QL},
+  pdf={https://arxiv.org/abs/2504.05216}  
+}
+
+
+@article{li2025bridging,
+  abbr = {CIKM},
+
+  title={Bridging Queries and Tables through Entities in Table Retrieval},
+  author={Li, Da and Bi, Keping and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2504.06551},
+  year={2025},
+
+  abstract="Table retrieval is essential for accessing information stored in structured tabular formats; however, it remains less explored than text retrieval. The content of the table primarily consists of phrases and words, which include a large number of entities, such as time, locations, persons, and organizations. Entities are well-studied in the context of text retrieval, but there is a noticeable lack of research on their applications in table retrieval. In this work, we explore how to leverage entities in tables to improve retrieval performance. First, we investigate the important role of entities in table retrieval from a statistical perspective and propose an entity-enhanced training framework. Subsequently, we use the type of entities to highlight entities instead of introducing an external knowledge base. Moreover, we design an interaction paradigm based on entity representations. Our proposed framework is plug-and-play and flexible, making it easy to integrate into existing table retriever training processes. Empirical results on two table retrieval benchmarks, NQ-TABLES and OTT-QA, show that our proposed framework is both simple and effective in enhancing existing retrievers. We also conduct extensive analyses to confirm the efficacy of different components. Overall, our work provides a promising direction for elevating table retrieval, enlightening future research in this area.",
+  github={https://github.com/Trustworthy-Information-Access/ECAT},
+  pdf={https://arxiv.org/abs/2504.06551}
+}
+
+@article{li2025tailoring,
+  abbr = {EMNLP},
+
+  title={Tailoring Table Retrieval from a Field-aware Hybrid Matching Perspective},
+  author={Li, Da and Bi, Keping and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2503.02251},
+  year={2025},
+
+  abstract="Table retrieval, essential for accessing information through tabular data, is less explored compared to text retrieval. The row/column structure and distinct fields of tables (including titles, headers, and cells) present unique challenges. For example, different table fields have varying matching preferences: cells may favor finer-grained (word/phrase level) matching over broader (sentence/passage level) matching due to their fragmented and detailed nature, unlike titles. This necessitates a table-specific retriever to accommodate the various matching needs of each table field. Therefore, we introduce a Table-tailored HYbrid Matching rEtriever (THYME), which approaches table retrieval from a field-aware hybrid matching perspective. Empirical results on two table retrieval benchmarks, NQ-TABLES and OTT-QA, show that THYME significantly outperforms state-of-the-art baselines. Comprehensive analyses confirm the differing matching preferences across table fields and validate the design of THYME.",
+  github={https://github.com/Trustworthy-Information-Access/THYME},
+  pdf={https://arxiv.org/abs/2503.02251}
+}
+
+@article{zhang2025leveraging,
+  abbr = {EMNLP},
+
+  title={Leveraging LLMs for Utility-Focused Annotation: Reducing Manual Effort for Retrieval and RAG},
+  author={Zhang, Hengran and Tang, Minghao and Bi, Keping and Guo, Jiafeng and Liu, Shihao and Shi, Daiting and Yin, Dawei and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2504.05220},
+  year={2025},
+
+  abstract="This paper explores the use of large language models (LLMs) for annotating document utility in training retrieval and retrieval-augmented generation (RAG) systems, aiming to reduce dependence on costly human annotations. We address the gap between retrieval relevance and generative utility by employing LLMs to annotate document utility. To effectively utilize multiple positive samples per query, we introduce a novel loss that maximizes their summed marginal likelihood. Using the Qwen-2.5-32B model, we annotate utility on the MS MARCO dataset and conduct retrieval experiments on MS MARCO and BEIR, as well as RAG experiments on MS MARCO QA, NQ, and HotpotQA. Our results show that LLM-generated annotations enhance out-of-domain retrieval performance and improve RAG outcomes compared to models trained solely on human annotations or downstream QA metrics. Furthermore, combining LLM annotations with just 20% of human labels achieves performance comparable to using full human annotations. Our study offers a comprehensive approach to utilizing LLM annotations for initializing QA systems on new corpora.",
+  github={https://github.com/Trustworthy-Information-Access/Utility-Focused-LLM-Annotation},
+  pdf={https://arxiv.org/abs/2504.05220}
+}
+
+@article{ding2025lvlms,
+  abbr = {EMNLP (Findings)},
+
+  title={Do LVLMs Know What They Know? A Systematic Study of Knowledge Boundary Perception in LVLMs},
+  author={Ding, Zhikai and Ni, Shiyu and Bi, Keping},
+  journal={arXiv preprint arXiv:2508.19111},
+  year={2025},
+
+  abstract="Large vision-language models (LVLMs) demonstrate strong visual question answering (VQA) capabilities but are shown to hallucinate. A reliable model should perceive its knowledge boundaries-knowing what it knows and what it does not. This paper investigates LVLMs' perception of their knowledge boundaries by evaluating three types of confidence signals: probabilistic confidence, answer consistency-based confidence, and verbalized confidence. Experiments on three LVLMs across three VQA datasets show that, although LVLMs possess a reasonable perception level, there is substantial room for improvement. Among the three confidences, probabilistic and consistency-based signals are more reliable indicators, while verbalized confidence often leads to overconfidence. To enhance LVLMs' perception, we adapt several established confidence calibration methods from Large Language Models (LLMs) and propose three effective methods. Additionally, we compare LVLMs with their LLM counterparts, finding that jointly processing visual and textual inputs decreases question-answering performance but reduces confidence, resulting in an improved perception level compared to LLMs.",
+  pdf={https://arxiv.org/abs/2508.19111}  
+}
+
+
+@inproceedings{yu2025unbiased,
+  abbr = {WebConf},
+
+  title={Unbiased Learning to Rank with Query-Level Click Propensity Estimation: Beyond Pointwise Observation and Relevance},
+  author={Yu, Lulu and Bi, Keping and Guo, Jiafeng and Liu, Shihao and Yin, Dawei and Cheng, Xueqi},
+  booktitle={Companion Proceedings of the ACM on Web Conference 2025},
+  pages={1495--1499},
+  year={2025},
+
+  abstract="Most existing unbiased learning-to-rank (ULTR) approaches are based on the user examination hypothesis, which assumes that users will click a result only if it is both relevant and observed (typically modeled by position). However, in real-world scenarios, users often click only one or two results after examining multiple relevant options, due to limited patience or because their information needs have already been satisfied. Motivated by this, we propose a query-level click propensity model to capture the probability that users will click on different result lists, allowing for non-zero probabilities that users may not click on an observed relevant result. We hypothesize that this propensity increases when more potentially relevant results are present, and refer to this user behavior as relevance saturation bias. Our method introduces a Dual Inverse Propensity Weighting (DualIPW) mechanism-combining query-level and position-level IPW-to address both relevance saturation and position bias. Through theoretical derivation, we prove that DualIPW can learn an unbiased ranking model. Experiments on the real-world Baidu-ULTR dataset demonstrate that our approach significantly outperforms state-of-the-art ULTR baselines.",
+  github={https://github.com/Trustworthy-Information-Access/DualIPW},
+  pdf={https://dl.acm.org/doi/abs/10.1145/3701716.3715458}
+}
+
 @article{ni2025towards,
   abbr = {ACL},
 
