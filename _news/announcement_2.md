@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-6-13 18:20:00
+date: 2025-8-21 18:20:00
 inline: true
 related_posts: false
 ---
 
-Shiyu Ni won the ICLR 2026 best paper award, congratulations!
+Three papers are accepted by EMNLP 2025. And one paper is accepted by CIKM 2025.
