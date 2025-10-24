@@ -9,9 +9,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**T**rustworthy **I**nfor**M**ation acc**E**ss (**[TIME](https://github.com/Trustworthy-Information-Access)**) group. We are part of the CAS Key Lab of Network Data Science and Technology. Our research focuses on RAG, Dense Retrieval, LLM. bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala. 
+**T**rustworthy **I**nfor**M**ation acc**E**ss (**[TIME](https://github.com/Trustworthy-Information-Access)**) group.
+We are part of the Key Laboratory of AI Safety, Institute of Computing Technology, Chinese Academy of Sciences. 
+Our research focuses on Information Retrieval, Retrieval-Augmented Generation, and Large Language Models. 
+bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala. 
 
-可信信息获取小组隶属于中国科学院网络数据科学与技术重点实验室，主要研究方向包括检索增强生成，密集检索，大模型知识边界等。
+可信信息获取小组隶属于中国科学院计算技术研究所智能算法安全重点实验室，主要研究方向包括信息检索，检索增强生成，大模型知识边界等。
 
 <br>
 
