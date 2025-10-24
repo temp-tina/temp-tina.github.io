@@ -101,6 +101,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/mingkun.html";
+            },},{id: "people-minzhu",
+          title: 'Minzhu',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/minzhu.html";
             },},{id: "people-shiyu",
           title: 'Shiyu',
           description: "",
@@ -141,6 +146,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/erag/";
+            },},{id: "resources-",
+          title: '',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/llma-see-llama-do/";
             },},{id: "resources-parametric-retrieval-augmented-generation",
           title: 'Parametric Retrieval Augmented Generation',
           description: "",
