@@ -44,17 +44,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "news-two-papers-are-accepted-by-acl-2025",
-          title: 'Two papers are accepted by ACL 2025.',
+        },{id: "news-two-papers-are-accepted-by-acl-2025-congrats-to-shiyu-and-yuchen",
+          title: 'Two papers are accepted by ACL 2025. Congrats to Shiyu and Yuchen!',
           description: "",
           section: "News",},{id: "news-three-papers-are-accepted-by-emnlp-2025-and-one-paper-is-accepted-by-cikm-2025",
           title: 'Three papers are accepted by EMNLP 2025. And one paper is accepted by...',
           description: "",
-          section: "News",},{id: "news-two-papers-are-accepted-by-sigir-ap-2025",
-          title: 'Two papers are accepted by SIGIR-AP 2025.',
+          section: "News",},{id: "news-two-papers-are-accepted-by-sigir-ap-2025-congrats-to-hengran-and-minghao",
+          title: 'Two papers are accepted by SIGIR-AP 2025. Congrats to Hengran and Minghao!',
           description: "",
-          section: "News",},{id: "news-one-papers-is-accepted-by-wsdm-2025",
-          title: 'One papers is accepted by WSDM 2025.',
+          section: "News",},{id: "news-one-papers-is-accepted-by-wsdm-2025-congrats-to-wei-huang",
+          title: 'One papers is accepted by WSDM 2025. Congrats to Wei Huang!',
           description: "",
           section: "News",},{id: "people-benben",
           title: 'Benben',
@@ -126,11 +126,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/yingqiong.html";
-            },},{id: "people-yingshuo",
-          title: 'Yingshuo',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/yingshuo.html";
             },},{id: "people-yuchen",
           title: 'Yuchen',
           description: "",
