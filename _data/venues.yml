@@ -29,38 +29,37 @@
   color: "#F25D27"
 
 "WebConf":
-  color: "#165DFF"
-
-"WebConf (Short)":
-  color: "#165DFF"
-
-"CIKM":
-  color: "#165DFF"
-
-"ICDE":
-  color: "#165DFF"
-
-"SIGIR":
-  color: "#165DFF"
-
-"SIGIR-AP":
-  color: "#165DFF"
-
-"ECIR":
-  color: "#165DFF"
-
-"KDD":
-  color: "#165DFF"
-
-"WSDM":
-  color: "#165DFF"
-
-"CCIR":
-  color: "#165DFF"
-
-"NTCIR":
-  color: "#165DFF"
-
-"TOIS":
   color: "#4E52A6"
 
+"WebConf (Short)":
+  color: "#4E52A6"
+
+"CIKM":
+  color: "#4E52A6"
+
+"ICDE":
+  color: "#4E52A6"
+
+"SIGIR":
+  color: "#4E52A6"
+
+"SIGIR-AP":
+  color: "#4E52A6"
+
+"ECIR":
+  color: "#4E52A6"
+
+"KDD":
+  color: "#4E52A6"
+
+"WSDM":
+  color: "#4E52A6"
+
+"CCIR":
+  color: "#4E52A6"
+
+"NTCIR":
+  color: "#4E52A6"
+
+"TOIS":
+  color: "#165DFF"
