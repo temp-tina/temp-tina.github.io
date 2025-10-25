@@ -156,8 +156,8 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/massive-values/";
-            },},{id: "resources-clip-based-fine-grained-image-retrieval-method",
-          title: 'CLIP-based fine-grained image retrieval method',
+            },},{id: "resources-clip-based-fine-grained-image-retrieval-methods",
+          title: 'CLIP-Based Fine-Grained Image Retrieval Methods',
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/clip-retrieval/";
