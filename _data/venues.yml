@@ -55,11 +55,12 @@
 "WSDM":
   color: "#165DFF"
 
+"CCIR":
+  color: "#165DFF"
+
+"NTCIR":
+  color: "#165DFF"
+
 "TOIS":
   color: "#4E52A6"
 
-"CCIR":
-  color: "#4E52A6"
-
-"NTCIR":
-  color: "#4E52A6"

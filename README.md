@@ -60,24 +60,27 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
 
 
 ## Resources
-- 在`_resources/`文件夹下创建新的markdown文件，如`prag.md`，模板如下：
+- 在`_resources/`文件夹下创建新的markdown文件，如`cot-monitor.md`，模板如下：
   ```
   ---
   layout: page
-  title: "Parametric Retrieval Augmented Generation"
+  title: "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation"
   presenter:
-    - Minghao Tang
-  date: 2025-03-26
-  tldr: Parametric RAG proposes a novel paradigm integrating external knowledge as parameters into the feed-forward networks of LLMs.
-  pdf_link: /assets/pdf/prag_0326.pdf
+    - Minzhu Tu
+  date: 2025-07-25
+  tldr: 监控推理模型的不当行为及强化学习中隐蔽奖励作弊的风险
+  pdf_link: /assets/pdf/cot-monitor.pdf
+  blog_link: https://mp.weixin.qq.com/s/CQ49tQ5eUjfXpwICK58-0w
   ---
   ```
+- tldr中不要有: 会解析出错
+- pdf_link和blog_link都是可选项
 
 
 ## Publications
 
-- 编辑`_bibliography/papers.bib`文件
-  - 模板如下：
+- 编辑`_bibliography/papers.bib`文件，往里面添加bib内容
+  - 添加模板如下：
     ```
     @article{PhysRev.47.777,
     # -----会议标签，需要与venues.yml里对应-----
