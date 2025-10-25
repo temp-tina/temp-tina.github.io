@@ -135,7 +135,7 @@
   journal={arXiv preprint arXiv:2502.18176},
   year={2025},
 
-  abstract="In this paper, we aim to build an adversarially robust zero-shot image classifier. We ground our work on CLIP, a vision-language pre-trained encoder model that can perform zero-shot classification by matching an image with text prompts ``a photo of a <class-name>.''. Purification is the path we choose since it does not require adversarial training on specific attack types and thus can cope with any foreseen attacks. We then formulate purification risk as the KL divergence between the joint distributions of the purification process of denoising the adversarial samples and the attack process of adding perturbations to benign samples, through bidirectional Stochastic Differential Equations (SDEs). The final derived results inspire us to explore purification in the multi-modal latent space of CLIP. We propose two variants for our CLIPure approach: CLIPure-Diff which models the likelihood of images' latent vectors with the DiffusionPrior module in DaLLE-2 (modeling the generation process of CLIP's latent vectors), and CLIPure-Cos which models the likelihood with the cosine similarity between the embeddings of an image and ``a photo of a.''. As far as we know, CLIPure is the first purification method in multi-modal latent space and CLIPure-Cos is the first purification method that is not based on generative models, which substantially improves defense efficiency. We conducted extensive experiments on CIFAR-10, ImageNet, and 13 datasets that previous CLIP-based defense methods used for evaluating zero-shot classification robustness. Results show that CLIPure boosts the SOTA robustness by a large margin, e.g., from 71.7% to 91.1% on CIFAR10, from 59.6% to 72.6% on ImageNet, and 108% relative improvements of average robustness on the 13 datasets over previous SOTA.",
+  abstract="In this paper, we aim to build an adversarially robust zero-shot image classifier. We ground our work on CLIP, a vision-language pre-trained encoder model that can perform zero-shot classification by matching an image with text prompts a photo of a class-name. Purification is the path we choose since it does not require adversarial training on specific attack types and thus can cope with any foreseen attacks. We then formulate purification risk as the KL divergence between the joint distributions of the purification process of denoising the adversarial samples and the attack process of adding perturbations to benign samples, through bidirectional Stochastic Differential Equations (SDEs). The final derived results inspire us to explore purification in the multi-modal latent space of CLIP. We propose two variants for our CLIPure approach: CLIPure-Diff which models the likelihood of images' latent vectors with the DiffusionPrior module in DaLLE-2 (modeling the generation process of CLIP's latent vectors), and CLIPure-Cos which models the likelihood with the cosine similarity between the embeddings of an image and a photo of a. As far as we know, CLIPure is the first purification method in multi-modal latent space and CLIPure-Cos is the first purification method that is not based on generative models, which substantially improves defense efficiency. We conducted extensive experiments on CIFAR-10, ImageNet, and 13 datasets that previous CLIP-based defense methods used for evaluating zero-shot classification robustness. Results show that CLIPure boosts the SOTA robustness by a large margin, e.g., from 71.7% to 91.1% on CIFAR10, from 59.6% to 72.6% on ImageNet, and 108% relative improvements of average robustness on the 13 datasets over previous SOTA.",
   github={https://github.com/TMLResearchGroup-CAS/CLIPure},
   pdf={https://arxiv.org/abs/2502.18176}
 }
@@ -166,6 +166,31 @@
   pdf={https://arxiv.org/abs/2406.14023}
 }
 
+@article{guo2025came,
+  abbr = {TOIS},
+
+  title={Came: Competitively learning a mixture-of-experts model for first-stage retrieval},
+  author={Guo, Jiafeng and Cai, Yinqiong and Bi, Keping and Fan, Yixing and Chen, Wei and Zhang, Ruqing and Cheng, Xueqi},
+  journal={ACM Transactions on Information Systems},
+  year={2025},
+
+  abstract="The first-stage retrieval aims to retrieve a subset of candidate documents from a huge collection both effectively and efficiently. Since various matching patterns can exist between queries and relevant documents, previous work tries to combine multiple retrieval models to find as many relevant results as possible. The constructed ensembles, whether learned independently or jointly, do not care which component model is more suitable to an instance during training. Thus, they cannot fully exploit the capabilities of different types of retrieval models in identifying diverse relevance patterns. Motivated by this observation, in this article, we propose a Mixture-of-Experts (MoE) model consisting of representative matching experts and a novel competitive learning mechanism to let the experts develop and enhance their expertise during training. Specifically, our MoE model shares the bottom layers to learn common semantic representations and uses differently structured upper layers to represent various types of retrieval experts. Our competitive learning mechanism has two stages: (1) a standardized learning stage to train the experts equally to develop their capabilities to conduct relevance matching; (2) a specialized learning stage where the experts compete with each other on every training instance and get rewards and updates according to their performance to enhance their expertise on certain types of samples. Experimental results on retrieval benchmark datasets show that our method significantly outperforms the state-of-the-art baselines in the in-domain and out-of-domain settings.",
+  pdf={https://dl.acm.org/doi/full/10.1145/3678880}
+}
+
+@article{zhang2024causaldiff,
+  abbr = {NeurIPS},
+
+  title={Causaldiff: Causality-inspired disentanglement via diffusion model for adversarial defense},
+  author={Zhang, Mingkun and Bi, Keping and Chen, Wei and Chen, Quanrun and Guo, Jiafeng and Cheng, Xueqi},
+  journal={Advances in Neural Information Processing Systems},
+  year={2024},
+
+  abstract="Despite ongoing efforts to defend neural classifiers from adversarial attacks, they remain vulnerable, especially to unseen attacks. In contrast, humans are difficult to be cheated by subtle manipulations, since we make judgments only based on essential factors. Inspired by this observation, we attempt to model label generation with essential label-causative factors and incorporate label-non-causative factors to assist data generation. For an adversarial example, we aim to discriminate the perturbations as non-causative factors and make predictions only based on the label-causative factors. Concretely, we propose a casual diffusion model (CausalDiff) that adapts diffusion models for conditional data generation and disentangles the two types of casual factors by learning towards a novel casual information bottleneck objective. Empirically, CausalDiff has significantly outperformed state-of-the-art defense methods on various unseen attacks, achieving an average robustness of 86.39% (+4.01%) on CIFAR-10, 56.25% (+3.13%) on CIFAR-100, and 82.62% (+4.93%) on GTSRB (German Traffic Sign Recognition Benchmark).",
+  github={https://github.com/TMLResearchGroup-CAS/CausalDiff},
+  pdf={https://arxiv.org/abs/2410.23091}
+}
+
 @inproceedings{ni2024large,
   abbr = {CCIR},
 
@@ -176,6 +201,30 @@
 
   abstract="Large language models (LLMs) have been found to produce hallucinations when the question exceeds their internal knowledge boundaries. A reliable model should have a clear perception of its knowledge boundaries, providing correct answers within its scope and refusing to answer when it lacks knowledge. Existing research on LLMs' perception of their knowledge boundaries typically uses either the probability of the generated tokens or the verbalized confidence as the model's confidence in its response. However, these studies overlook the differences and connections between the two. In this paper, we conduct a comprehensive analysis and comparison of LLMs' probabilistic perception and verbalized perception of their factual knowledge boundaries. First, we investigate the pros and cons of these two perceptions. Then, we study how they change under questions of varying frequencies. Finally, we measure the correlation between LLMs' probabilistic confidence and verbalized confidence. Experimental results show that 1) LLMs' probabilistic perception is generally more accurate than verbalized perception but requires an in-domain validation set to adjust the confidence threshold. 2) Both perceptions perform better on less frequent questions. 3) It is challenging for LLMs to accurately express their internal confidence in natural language.",
   pdf={https://arxiv.org/abs/2408.09773}
+}
+
+@article{yang2024linkage,
+  abbr = {EMNLP (Findings)},
+
+  title={Linkage: Listwise ranking among varied-quality references for non-factoid qa evaluation via llms},
+  author={Yang, Sihui and Bi, Keping and Cui, Wanqing and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2409.14744},
+  year={2024},
+    
+  abstract="Non-Factoid (NF) Question Answering (QA) is challenging to evaluate due to diverse potential answers and no objective criterion. The commonly used automatic evaluation metrics like ROUGE or BERTScore cannot accurately measure semantic similarities or answers from different perspectives. Recently, Large Language Models (LLMs) have been resorted to for NFQA evaluation due to their compelling performance on various NLP tasks. Common approaches include pointwise scoring of each candidate answer and pairwise comparisons between answers. Inspired by the evolution from pointwise to pairwise to listwise in learning-to-rank methods, we propose a novel listwise NFQA evaluation approach, that utilizes LLMs to rank candidate answers in a list of reference answers sorted by descending quality. Moreover, for NF questions that do not have multi-grade or any golden answers, we leverage LLMs to generate the reference answer list of various quality to facilitate the listwise evaluation. Extensive experimental results on three NFQA datasets, i.e., ANTIQUE, the TREC-DL-NF, and WebGLM show that our method has significantly higher correlations with human annotations compared to automatic scores and common pointwise and pairwise approaches.",
+  pdf={https://arxiv.org/abs/2409.14744}
+}
+
+@inproceedings{bi2024reproducibility,
+  abbr = {ECIR},
+
+  title={Reproducibility Analysis and Enhancements for Multi-aspect Dense Retriever with Aspect Learning},
+  author={Bi, Keping and Sun, Xiaojie and Guo, Jiafeng and Cheng, Xueqi},
+  year={2024},
+
+  abstract={Multi-aspect dense retrieval aims to incorporate aspect information (e.g., brand and category) into dual encoders to facilitate relevance matching. As an early and representative multi-aspect dense retriever, MADRAL learns several extra aspect embeddings and fuses the explicit aspects with an implicit aspect "OTHER" for final representation. MADRAL was evaluated on proprietary data and its code was not released, making it challenging to validate its effectiveness on other datasets. We failed to reproduce its effectiveness on the public MA-Amazon data, motivating us to probe the reasons and re-examine its components. We propose several component alternatives for comparisons, including replacing "OTHER" with "CLS" and representing aspects with the first several content tokens. Through extensive experiments, we confirm that learning "OTHER" from scratch in aspect fusion is harmful. In contrast, our proposed variants can greatly enhance the retrieval performance. Our research not only sheds light on the limitations of MADRAL but also provides valuable insights for future studies on more powerful multi-aspect dense retrieval models.},
+  github={https://github.com/sunxiaojie99/Reproducibility-for-MADRAL},
+  pdf={https://arxiv.org/abs/2401.03648}
 }
 
 @article{cui2024more,

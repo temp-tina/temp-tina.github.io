@@ -110,6 +110,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     }
     ```
 - venues.yml里添加修改不同会议的标签
+- 注意不要在abstract里直接放入""，<>等符号，会解析出错
 
 
 ## Contact
