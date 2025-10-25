@@ -146,16 +146,16 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/erag/";
-            },},{id: "resources-",
-          title: '',
-          description: "",
-          section: "Resources",handler: () => {
-              window.location.href = "/resources/llma-see-llama-do/";
             },},{id: "resources-parametric-retrieval-augmented-generation",
           title: 'Parametric Retrieval Augmented Generation',
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/prag/";
+            },},{id: "resources-llama-see-llama-do-a-mechanistic-perspective-on-contextual-entrainment-and-distraction-in-llms",
+          title: 'Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in...',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/llama-see-llama-do/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
