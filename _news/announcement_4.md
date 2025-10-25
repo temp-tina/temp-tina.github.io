@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-24 18:20:00
+date: 2025-9-12 18:20:00
 inline: true
 related_posts: false
 ---
 
-One papers is accepted by WSDM 2025. Congrats to Wei Huang!
+Two papers are accepted by SIGIR-AP 2025. Congrats to Hengran and Minghao!
