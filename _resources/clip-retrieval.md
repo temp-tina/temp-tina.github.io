@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CLIP-based fine-grained image retrieval method"
+title: "CLIP-Based Fine-Grained Image Retrieval Methods"
 presenter:
   - Jiahan Chen
 date: 2025-07-17
