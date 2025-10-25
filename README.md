@@ -46,6 +46,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     - Graph Neural Networks
   category: phd (可选：faculty, phd, master, alumni, visiting)
   year: 2021 (入学年份，用于同一category下排序)
+
   (下面链接为可选项)
   homepage: https://example.com
   email: example@example.com
@@ -109,12 +110,15 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
     additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)}, # 添加额外信息，位于期刊名称旁
     }
     ```
+
 - venues.yml里添加修改不同会议的标签
+- abstract里不要放<>，会解析出错
 
 
 ## Contact
 
 - 内容：`_pages/contact.md`
+
 
 ## Markdown说明
 
