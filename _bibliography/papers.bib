@@ -166,31 +166,6 @@
   pdf={https://arxiv.org/abs/2406.14023}
 }
 
-@article{guo2025came,
-  abbr = {TOIS},
-
-  title={Came: Competitively learning a mixture-of-experts model for first-stage retrieval},
-  author={Guo, Jiafeng and Cai, Yinqiong and Bi, Keping and Fan, Yixing and Chen, Wei and Zhang, Ruqing and Cheng, Xueqi},
-  journal={ACM Transactions on Information Systems},
-  year={2025},
-
-  abstract="The first-stage retrieval aims to retrieve a subset of candidate documents from a huge collection both effectively and efficiently. Since various matching patterns can exist between queries and relevant documents, previous work tries to combine multiple retrieval models to find as many relevant results as possible. The constructed ensembles, whether learned independently or jointly, do not care which component model is more suitable to an instance during training. Thus, they cannot fully exploit the capabilities of different types of retrieval models in identifying diverse relevance patterns. Motivated by this observation, in this article, we propose a Mixture-of-Experts (MoE) model consisting of representative matching experts and a novel competitive learning mechanism to let the experts develop and enhance their expertise during training. Specifically, our MoE model shares the bottom layers to learn common semantic representations and uses differently structured upper layers to represent various types of retrieval experts. Our competitive learning mechanism has two stages: (1) a standardized learning stage to train the experts equally to develop their capabilities to conduct relevance matching; (2) a specialized learning stage where the experts compete with each other on every training instance and get rewards and updates according to their performance to enhance their expertise on certain types of samples. Experimental results on retrieval benchmark datasets show that our method significantly outperforms the state-of-the-art baselines in the in-domain and out-of-domain settings.",
-  pdf={https://dl.acm.org/doi/full/10.1145/3678880}
-}
-
-@article{zhang2024causaldiff,
-  abbr = {NeurIPS},
-
-  title={Causaldiff: Causality-inspired disentanglement via diffusion model for adversarial defense},
-  author={Zhang, Mingkun and Bi, Keping and Chen, Wei and Chen, Quanrun and Guo, Jiafeng and Cheng, Xueqi},
-  journal={Advances in Neural Information Processing Systems},
-  year={2024},
-
-  abstract="Despite ongoing efforts to defend neural classifiers from adversarial attacks, they remain vulnerable, especially to unseen attacks. In contrast, humans are difficult to be cheated by subtle manipulations, since we make judgments only based on essential factors. Inspired by this observation, we attempt to model label generation with essential label-causative factors and incorporate label-non-causative factors to assist data generation. For an adversarial example, we aim to discriminate the perturbations as non-causative factors and make predictions only based on the label-causative factors. Concretely, we propose a casual diffusion model (CausalDiff) that adapts diffusion models for conditional data generation and disentangles the two types of casual factors by learning towards a novel casual information bottleneck objective. Empirically, CausalDiff has significantly outperformed state-of-the-art defense methods on various unseen attacks, achieving an average robustness of 86.39% (+4.01%) on CIFAR-10, 56.25% (+3.13%) on CIFAR-100, and 82.62% (+4.93%) on GTSRB (German Traffic Sign Recognition Benchmark).",
-  github={https://github.com/TMLResearchGroup-CAS/CausalDiff},
-  pdf={https://arxiv.org/abs/2410.23091}
-}
-
 @inproceedings{ni2024large,
   abbr = {CCIR},
 
@@ -201,43 +176,6 @@
 
   abstract="Large language models (LLMs) have been found to produce hallucinations when the question exceeds their internal knowledge boundaries. A reliable model should have a clear perception of its knowledge boundaries, providing correct answers within its scope and refusing to answer when it lacks knowledge. Existing research on LLMs' perception of their knowledge boundaries typically uses either the probability of the generated tokens or the verbalized confidence as the model's confidence in its response. However, these studies overlook the differences and connections between the two. In this paper, we conduct a comprehensive analysis and comparison of LLMs' probabilistic perception and verbalized perception of their factual knowledge boundaries. First, we investigate the pros and cons of these two perceptions. Then, we study how they change under questions of varying frequencies. Finally, we measure the correlation between LLMs' probabilistic confidence and verbalized confidence. Experimental results show that 1) LLMs' probabilistic perception is generally more accurate than verbalized perception but requires an in-domain validation set to adjust the confidence threshold. 2) Both perceptions perform better on less frequent questions. 3) It is challenging for LLMs to accurately express their internal confidence in natural language.",
   pdf={https://arxiv.org/abs/2408.09773}
-}
-
-@article{yang2024linkage,
-  abbr = {EMNLP (Findings)},
-
-  title={Linkage: Listwise ranking among varied-quality references for non-factoid qa evaluation via llms},
-  author={Yang, Sihui and Bi, Keping and Cui, Wanqing and Guo, Jiafeng and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2409.14744},
-  year={2024},
-    
-  abstract="Non-Factoid (NF) Question Answering (QA) is challenging to evaluate due to diverse potential answers and no objective criterion. The commonly used automatic evaluation metrics like ROUGE or BERTScore cannot accurately measure semantic similarities or answers from different perspectives. Recently, Large Language Models (LLMs) have been resorted to for NFQA evaluation due to their compelling performance on various NLP tasks. Common approaches include pointwise scoring of each candidate answer and pairwise comparisons between answers. Inspired by the evolution from pointwise to pairwise to listwise in learning-to-rank methods, we propose a novel listwise NFQA evaluation approach, that utilizes LLMs to rank candidate answers in a list of reference answers sorted by descending quality. Moreover, for NF questions that do not have multi-grade or any golden answers, we leverage LLMs to generate the reference answer list of various quality to facilitate the listwise evaluation. Extensive experimental results on three NFQA datasets, i.e., ANTIQUE, the TREC-DL-NF, and WebGLM show that our method has significantly higher correlations with human annotations compared to automatic scores and common pointwise and pairwise approaches.",
-  pdf={https://arxiv.org/abs/2409.14744}
-}
-
-@inproceedings{bi2024reproducibility,
-  abbr = {ECIR},
-
-  title={Reproducibility Analysis and Enhancements for Multi-aspect Dense Retriever with Aspect Learning},
-  author={Bi, Keping and Sun, Xiaojie and Guo, Jiafeng and Cheng, Xueqi},
-  booktitle={European Conference on Information Retrieval},
-  year={2024},
-
-  abstract="Multi-aspect dense retrieval aims to incorporate aspect information (e.g., brand and category) into dual encoders to facilitate relevance matching. As an early and representative multi-aspect dense retriever, MADRAL learns several extra aspect embeddings and fuses the explicit aspects with an implicit aspect "OTHER" for final representation. MADRAL was evaluated on proprietary data and its code was not released, making it challenging to validate its effectiveness on other datasets. We failed to reproduce its effectiveness on the public MA-Amazon data, motivating us to probe the reasons and re-examine its components. We propose several component alternatives for comparisons, including replacing "OTHER" with "CLS" and representing aspects with the first several content tokens. Through extensive experiments, we confirm that learning "OTHER" from scratch in aspect fusion is harmful. In contrast, our proposed variants can greatly enhance the retrieval performance. Our research not only sheds light on the limitations of MADRAL but also provides valuable insights for future studies on more powerful multi-aspect dense retrieval models.",
-  github={https://github.com/sunxiaojie99/Reproducibility-for-MADRAL},
-  pdf={https://arxiv.org/abs/2401.03648}
-}
-
-@inproceedings{sun2024multi,
-  abbr = {WSDM},
-
-  title={A Multi-Granularity-Aware Aspect Learning Model for Multi-Aspect Dense Retrieval},
-  author={Sun, Xiaojie and Bi, Keping and Guo, Jiafeng and Yang, Sihui and Zhang, Qishen and Liu, Zhongyi and Zhang, Guannan and Cheng, Xueqi},
-  booktitle={Proceedings of the 17th ACM International Conference on Web Search and Data Mining},
-  year={2024},
-
-  abstract="Dense retrieval methods have been mostly focused on unstructured text and less attention has been drawn to structured data with various aspects, e.g., products with aspects such as category and brand. Recent work has proposed two approaches to incorporate the aspect information into item representations for effective retrieval by predicting the values associated with the item aspects. Despite their efficacy, they treat the values as isolated classes (e.g., "Smart Homes", "Home, Garden & Tools", and "Beauty & Health") and ignore their fine-grained semantic relation. Furthermore, they either enforce the learning of aspects into the CLS token, which could confuse it from its designated use for representing the entire content semantics, or learn extra aspect embeddings only with the value prediction objective, which could be insufficient especially when there are no annotated values for an item aspect. Aware of these limitations, we propose a MUlti-granulaRity-aware Aspect Learning model (MURAL) for multi-aspect dense retrieval. It leverages aspect information across various granularities to capture both coarse and fine-grained semantic relations between values. Moreover, MURAL incorporates separate aspect embeddings as input to transformer encoders so that the masked language model objective can assist implicit aspect learning even without aspect-value annotations. Extensive experiments on two real-world datasets of products and mini-programs show that MURAL outperforms state-of-the-art baselines significantly.",
-  pdf={https://arxiv.org/abs/2312.02538}
 }
 
 @article{cui2024more,
