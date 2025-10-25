@@ -9,6 +9,7 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
 # 使用指南
 
 ## About
+Home页，TIME Group的head是在_config.yml中修改，还可以添加icon
 
 - 内容: 修改`/_pages/about.md`
 - 图片: 修改`_data/carousel.yml`
@@ -60,6 +61,8 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
 
 
 ## Resources
+resource页，可以把paper reading的pdf和公众号的文章链接放这里
+
 - 在`_resources/`文件夹下创建新的markdown文件，如`cot-monitor.md`，模板如下：
   ```
   ---
@@ -78,8 +81,9 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
 
 
 ## Publications
+Publications页，需要手动往里面添加bib内容
 
-- 编辑`_bibliography/papers.bib`文件，往里面添加bib内容
+- 编辑`_bibliography/papers.bib`文件
   - 添加模板如下：
     ```
     @article{PhysRev.47.777,
