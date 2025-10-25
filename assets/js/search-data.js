@@ -151,6 +151,26 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/prag/";
+            },},{id: "resources-massive-values-in-self-attention-modules-are-the-key-to-contextual-knowledge-understanding",
+          title: 'Massive Values in Self-Attention Modules are the Key to Contextual Knowledge Understanding',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/massive-values/";
+            },},{id: "resources-clip-based-fine-grained-image-retrieval-method",
+          title: 'CLIP-based fine-grained image retrieval method',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/clip-retrieval/";
+            },},{id: "resources-monitoring-reasoning-models-for-misbehavior-and-the-risks-of-promoting-obfuscation",
+          title: 'Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/cot-monitor/";
+            },},{id: "resources-evaluating-implicit-bias-in-large-language-models-by-attacking-from-a-psychometric-perspective",
+          title: 'Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective...',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/implicit-bias/";
             },},{id: "resources-llama-see-llama-do-a-mechanistic-perspective-on-contextual-entrainment-and-distraction-in-llms",
           title: 'Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in...',
           description: "",
