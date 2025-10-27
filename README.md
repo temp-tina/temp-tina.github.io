@@ -72,12 +72,12 @@ resource页，可以把paper reading的pdf和公众号的文章链接放这里
     - Minzhu Tu
   date: 2025-07-25
   tldr: 监控推理模型的不当行为及强化学习中隐蔽奖励作弊的风险
-  pdf_link: /assets/pdf/cot-monitor.pdf
+  slides_link: /assets/pdf/cot-monitor.pdf
   blog_link: https://mp.weixin.qq.com/s/CQ49tQ5eUjfXpwICK58-0w
   ---
   ```
 - tldr中不要有: 会解析出错
-- pdf_link和blog_link都是可选项
+- slides_link和blog_link都是可选项
 
 
 ## Publications
