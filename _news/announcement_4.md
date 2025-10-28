@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers are accepted by SIGIR-AP 2025. Congrats to Hengran and Minghao!
+Two papers are accepted by **SIGIR-AP 2025**. Congrats to Hengran and Minghao!

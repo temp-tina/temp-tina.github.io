@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Three papers are accepted by EMNLP 2025. Congrats to Hengran, Minghao, Zhikai and Da Li!
+Three papers are accepted by **EMNLP 2025**. Congrats to Hengran, Minghao, Zhikai and Da Li!
