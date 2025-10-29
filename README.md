@@ -11,8 +11,8 @@ The specific deployment details are in the [ref](https://github.com/alshedivat/a
 ## About
 Home页，TIME Group的head是在_config.yml中修改，还可以添加icon
 
-- 内容: 修改`/_pages/about.md`
-- 图片: 修改`_data/carousel.yml`
+- 主体内容: 修改`/_pages/about.md`
+- 轮播图片: 修改`_data/carousel.yml`
   - 需要填写：
     - `image`：图片名称，如`1.jpg`，置于`/assets/img/carousel/`文件夹下
     - `caption`：图片描述

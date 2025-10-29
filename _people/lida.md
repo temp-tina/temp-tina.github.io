@@ -1,7 +1,7 @@
 ---
 name: Da Li
 cname: 李达
-photo: boy.png
+photo: lida.jpg
 info: Ph.D. 2021-
 research_interests:
   - Retrival
