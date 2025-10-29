@@ -1,7 +1,7 @@
 ---
 name: Wei Huang
 cname: 黄伟
-photo: wei.jpeg
+photo: huangwei.jpg
 info: Ph.D. 2021-
 research_interests:
   - Source Bias

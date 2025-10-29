@@ -20,21 +20,20 @@ layout: default
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="h-100 person-card">
                   {% if person.homepage %}
-                    <a href="{{ person.homepage }}" target="_blank">
-                      <img
-                        src="{{ person.photo | prepend: '/assets/img/people/' | relative_url }}"
-                        class="card-img-top rounded-circle mx-auto mt-3"
-                        style="width: 150px; height: 150px; object-fit: cover;"
-                        alt="{{ person.name }}"
-                      >
+                    <a href="{{ person.homepage }}" target="_blank" rel="noopener">
+                  {% elsif person.google_scholar %}
+                    <a href="{{ person.google_scholar }}" target="_blank" rel="noopener">
+                  {% endif %}
+
+                  <img
+                    src="{{ person.photo | prepend: '/assets/img/people/' | relative_url }}"
+                    class="card-img-top rounded-circle mx-auto mt-3"
+                    style="width: 150px; height: 150px; object-fit: cover;"
+                    alt="{{ person.name }}"
+                  >
+
+                  {% if person.homepage or person.google_scholar %}
                     </a>
-                  {% else %}
-                    <img
-                      src="{{ person.photo | prepend: '/assets/img/people/' | relative_url }}"
-                      class="card-img-top rounded-circle mx-auto mt-3"
-                      style="width: 150px; height: 150px; object-fit: cover;"
-                      alt="{{ person.name }}"
-                    >
                   {% endif %}
 
                   <div class="card-body">
