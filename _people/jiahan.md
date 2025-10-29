@@ -11,7 +11,7 @@ year: 2024
 email: chenjiahan24s@ict.ac.cn
 # homepage: https://kepingbi.github.io
 # google_scholar: https://scholar.google.com/citations?user=kJQYiFIAAAAJ
-# github: https://github.com/KepingBi
+github: https://github.com/Fmajor77
 # x: https://x.com/BiKeping
 # linkedin: https://www.linkedin.com/in/keping-bi-b62a3437
 ---
