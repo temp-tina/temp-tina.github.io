@@ -5,7 +5,7 @@ photo: boy.png
 info: Intern 2025-2025 -> Fudan University
 # research_interests:
 #   - TODO
-category: alumni
+category: visiting
 year: 2025
 # TODO:
 # email: bikeping@ict.ac.cn

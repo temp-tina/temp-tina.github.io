@@ -9,12 +9,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**T**rustworthy **I**nfor**M**ation acc**E**ss (**[TIME](https://github.com/Trustworthy-Information-Access)**) group.
-We are part of the Key Laboratory of AI Safety, Institute of Computing Technology, Chinese Academy of Sciences. 
-Our research focuses on Information Retrieval, Retrieval-Augmented Generation, and Large Language Models. 
-bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala bala. 
 
-可信信息获取小组隶属于中国科学院计算技术研究所智能算法安全重点实验室，主要研究方向包括信息检索，检索增强生成，大模型知识边界等。
+Our research group — **T**rustworthy **I**nfor**M**ation acc**E**ss (TIME) — is part of the [Key Laboratory of Network Data Science and Technology](https://ict.cas.cn/jssgk/zzjg/kyxt/wlzdsys/js/), within the State Key Laboratory of AI Safety at the Institute of Computing Technology, Chinese Academy of Sciences. 
+
+We focus on advancing trustworthy information access, with research spanning Information Retrieval, Retrieval-Augmented Generation, and Large Language Model Alignment guided by the 3H (Honest, Helpful, Harmless) principle. 
+Specifically, our work addresses unstructured and structured text retrieval, multimodal retrieval, LLM knowledge boundary identification, utility-driven and parametric RAG, and evaluation of generated content, among other related directions.
+
+可信信息获取小组（TIME）隶属于中国科学院计算技术研究所网络数据科学与技术重点实验室。
+我们致力于面向可信信息获取的基础与应用研究，主要方向包括信息检索、检索增强生成（RAG）、以及基于 3H 原则（真实、有效、无害） 的大模型对齐。
+具体研究内容涵盖非结构化/结构化文本检索、多模态检索、大模型知识边界识别、以实用性为导向的 RAG、参数化 RAG、生成内容评价等。
+
 
 <br>
 
